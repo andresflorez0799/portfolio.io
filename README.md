@@ -5,8 +5,7 @@
     <em>HV</em> minimalista maquetado para web y pdf
 </h2>
 <p>
-Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
-Basado en el diseño de <a href="https://midu.dev/">MiduDev</a>
+Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a> y <a href="https://midu.dev/">MiduDev</a>
 </p>
 </div>
 <div align="center">
@@ -15,9 +14,7 @@ Basado en el diseño de <a href="https://midu.dev/">MiduDev</a>
         Licencia
     </a>  
 </div>
-
 <p></p>
-
 ## 🛠️ Stack
 
 - [**Astro**](https://astro.build/)
