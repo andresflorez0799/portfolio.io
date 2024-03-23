@@ -31,8 +31,7 @@ jobs:
           cache-name: cache-node-modules
         with:
           path: $ {{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-build-${{ env.cache-name }}\
-          -${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}\-${{ hashFiles('**/yarn.lock') }}
           restore-keys:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
@@ -41,10 +40,6 @@ jobs:
         name: List the state of node modules
         continue-on-error: true
         run: yarn list
-      - name: Install dependencies
-        run: yarn install
-      - name: Build
-        run: yarn run build
 
       - name: Install, build, and upload your site
         uses: withastro/action@v2
