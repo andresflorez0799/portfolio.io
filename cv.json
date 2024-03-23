@@ -6,7 +6,7 @@
     "email": "andresflorez0799@gmail.com",
     "phone": "+57 3058128826",
     "url": "https://www.linkedin.com/in/mairon-andr%C3%A9s-florez-alvarez-340124137/",
-    "summary": "Desarrollador de software y apasionado por la tecnologia. He participado en la planificacion, desarrollo, creacion e implementacion de soluciones de tecnologia como servicios Web, sitios web personalizados, aplicaciones de escritorio, integraciones con SAP, Google, Dynamics. Como independiente he participado en la creacion de sistemas y automatizaciones para empresas, consultorias en desarrollo de software, proveedor de servicios.",
+    "summary": "Desarrollador de software y apasionado por la tecnología. He participado en la planificación, desarrollo, creación e implementación de soluciones de tecnología como servicios Web, sitios web personalizados, aplicaciones de escritorio, integraciones con SAP, Google, Dynamics. Como independiente he participado en la creación de sistemas y automatizaciones para empresas, consultorías en desarrollo de software, proveedor de servicios.",
     "location": {
       "address": "",
       "postalCode": "250001",
@@ -39,7 +39,7 @@
       "url": "https://belltech.la/",
       "startDate": "2022-12-01",
       "endDate": null,
-      "summary": "Desarollo de aplicaciones en .Net Framework, HTML, CSS y JavaScript para cliente del sector Bancario. Gestión de tareas, HU, repositorios y gestion de ciclo de proyectos en Azure DevOps. Atencion a cliente interno y externo, pruebas unitarias y soporte de segundo nivel, analisis y revision de codigo con apoyo en Sonar Cloud, entre otras actividades propias del cargo.",
+      "summary": "Desarrollo de aplicaciones en .Net Framework, HTML, CSS y JavaScript para cliente del sector Bancario. Gestión de tareas, HU, repositorios y gestión de ciclo de proyectos en Azure DevOps. Atención a cliente interno y externo, pruebas unitarias y soporte de segundo nivel, análisis y revision de código con apoyo en Sonar Cloud, entre otras actividades propias del cargo.",
       "highlights": [
         "KAL",
         "K3A",
@@ -70,7 +70,7 @@
       "url": "https://www.mectronics.co/",
       "startDate": "2022-05-01",
       "endDate": "2022-11-30",
-      "summary": "Desarrollo de nuevas funcionalidades en aplicaciones .Net, Servicios SOAP (WCF), apoyo técnico en implementaciones, documentación, pruebas, gestión de tareas y repositorios en Microsoft TFS, bases de datos en SQL Server, y servicios en la nube como Cosmos DB, Azure SQL, Azure Data Factory. Mejora continua en código existente y querys SQL (funciones, store procedures y vistas), apoyo y mentoria al equipo entre otras funciones propias del cargo.",
+      "summary": "Desarrollo de nuevas funcionalidades en aplicaciones .Net, Servicios SOAP (WCF), apoyo técnico en implementaciones, documentación, pruebas, gestión de tareas y repositorios en Microsoft TFS, bases de datos en SQL Server, y servicios en la nube como Cosmos DB, Azure SQL, Azure Data Factory. Mejora continua en código existente y query SQL (funciones, store procedures y vistas), apoyo y mentoria al equipo entre otras funciones propias del cargo.",
       "highlights": [
         "HTML5",
         "JavaScript",
@@ -100,12 +100,12 @@
       "url": "https://tradealliancecorporation.com/",
       "startDate": "2020-09-01",
       "endDate": "2022-04-30",
-      "summary": "Liderazgo de equipo desarrollo, planificación y gestión de proyectos de software, seguimiento de actividades y entrega de resultados a Stakeholders. Configuración, mantenimiento y control de los repositorios de softaware, apoyo y mentoria al equipo y soporte de tercer nivel. Procesos de reclutamiento (diseño, calificación y recibir entrevistas tecnicas)",
+      "summary": "Liderazgo de equipo desarrollo, planificación y gestión de proyectos de software, seguimiento de actividades y entrega de resultados a Stakeholders. Configuración, mantenimiento y control de los repositorios de software, apoyo y mentoria al equipo y soporte de tercer nivel. Procesos de reclutamiento (diseño, calificación y recibir entrevistas técnicas)",
       "highlights": [
         "Liderazgo",
         "SCRUM",
         "Proyectos",
-        "planificacion",
+        "planificación",
         "Softkills",
         "REST",
         "WCF",
@@ -126,16 +126,16 @@
     },
     {
       "name": "Trade Alliance Corporation",
-      "position": "Lider Junior de Desarrollo de Software",
+      "position": "Líder Junior de Desarrollo de Software",
       "url": "https://tradealliancecorporation.com/",
       "startDate": "2016-04-01",
       "endDate": "2020-08-31",
-      "summary": "Responsable de liderar los proyectos de desarrollo de Software de la compañia para lograr los resultados esperados en tiempo y forma de acuerdo a las  necesidades de automatizacion, digitalizacion y optimizacion. Ejecutar y llevar control sobre los resultados, pruebas y funcionalidades finales de los proyectos. relacionamiento con  usuarios y clientes (interno y proveedores). Toma de decisiones operativas necesarias para mantener el proyecto en tiempo, alcances y costo. Aprobación, seguimiento y control de codigo fuente de las aplicaciones asi como automaticaciones (CI/CD con Azure DevOps)",
+      "summary": "Responsable de liderar los proyectos de desarrollo de Software de la compañía para lograr los resultados esperados en tiempo y forma de acuerdo a las  necesidades de automatización, digitalización y optimización. Ejecutar y llevar control sobre los resultados, pruebas y funcionalidades finales de los proyectos. relacionamiento con  usuarios y clientes (interno y proveedores). Toma de decisiones operativas necesarias para mantener el proyecto en tiempo, alcances y costo. Aprobación, seguimiento y control de código fuente de las aplicaciones asi como automatizaciones (CI/CD con Azure DevOps)",
       "highlights": [
         "Liderazgo",
-        "planificacion",
+        "planificación",
         "Softkills",
-        "Analisis",
+        "Análisis",
         "REST",
         "WCF",
         "SOAP",
@@ -153,7 +153,7 @@
         "XUnit",
         "Windows Server",
         "Microsoft SQL Server",
-        "Microsoft Analisis Services",
+        "Microsoft Analysis Services",
         "Visual Studio",
         "Visual Studio Code",
         "Postman",
@@ -166,9 +166,9 @@
       "url": "https://tradealliancecorporation.com/",
       "startDate": "2015-05-01",
       "endDate": "2016-04-30",
-      "summary": "Desarrollo de nuevas aplicaciones, agregar nuevas funcionalidades a desarrollos existentes y creacion de servicios web (SOAP, REST) bajo tecnologias Microsoft (C#, .Net, WCF, MVC). Apoyo en el diseño de arquitectura de software, creacion (DB, Tables, StoreProcedure, Views, T-SQL) y gestion de bases de datos de aplicaciones (DQL, DML, DDL, DCL). Documentación y apoyo tecnico en la definicion de HUs, soporte de 2 y 3 nivel asi como mentoria a los Devs",
+      "summary": "Desarrollo de nuevas aplicaciones, agregar nuevas funcionalidades a desarrollos existentes y creación de servicios web (SOAP, REST) bajo tecnologías Microsoft (C#, .Net, WCF, MVC). Apoyo en el diseño de arquitectura de software, creación (DB, Tables, StoreProcedure, Views, T-SQL) y gestión de bases de datos de aplicaciones (DQL, DML, DDL, DCL). Documentación y apoyo técnico en la definición de HUs, soporte de 2 y 3 nivel asi como mentoria a los Devs",
       "highlights": [
-        "Analisis",
+        "Análisis",
         "REST",
         "WCF",
         "SOAP",
@@ -185,7 +185,7 @@
         "XUnit",
         "Windows Server",
         "Microsoft SQL Server",
-        "Microsoft Analisis Services",
+        "Microsoft Analysis Services",
         "Visual Studio",
         "Visual Studio Code",
         "Postman",
@@ -198,9 +198,9 @@
       "url": "https://tradealliancecorporation.com/",
       "startDate": "2014-05-01",
       "endDate": "2015-05-31",
-      "summary": "Desarrollo de funcionalidades en aplicativos existentes. Soporte de primer nivel en aplicativos In-house y de terceros implementados (Talents, Dinamics CRM, ReqLogic, entre otras), diseño, creación y publicación de reporteria en Sql Server Reporting Services, agregar modificar y dar soporte a funcionalidades sobre sistemas de integracion de datos ETL (Sql Server Integration Services), creacion de scripts sql para extraccion de data y analisis. Atencion y soporte especializado al usuario sobre herramientas ofimatica y de aplicativos propios, preparacion y presentación de indicadores de gestión realizados en cada sprint. Adciional en este periodo (May/14-Oct/14) Administracion y gestion de usuarios en sistema SAP, administracion, creacion y configuracion de los permisos, roles y perfiles en el sistema, ademas de colaborar en la gestion sobre los cubos en SAP BW.",
+      "summary": "Desarrollo de funcionalidades en aplicativos existentes. Soporte de primer nivel en aplicativos In-house y de terceros implementados (Talents, Dynamics CRM, ReqLogic, entre otras), diseño, creación y publicación de reportes en Sql Server Reporting Services, agregar modificar y dar soporte a funcionalidades sobre sistemas de integración de datos ETL (Sql Server Integration Services), creación de scripts sql para extracción de data y análisis. Atención y soporte especializado al usuario sobre herramientas ofimática y de aplicativos propios, preparación y presentación de indicadores de gestión realizados en cada sprint. Adicional en este periodo (May/14-Oct/14) Administración y gestión de usuarios en sistema SAP, administración, creación y configuración de los permisos, roles y perfiles en el sistema, ademas de colaborar en la gestión sobre los cubos en SAP BW.",
       "highlights": [
-        "Analisis",
+        "Análisis",
         "HTML5",
         "JavaScript",
         "CSS",
@@ -211,7 +211,7 @@
         "Azure DevOps",
         "Windows Server",
         "Microsoft SQL Server",
-        "Microsoft Analisis Services",
+        "Microsoft Analysis Services",
         "Visual Studio",
         "Visual Studio Code",
         "SAP BW"
@@ -223,9 +223,9 @@
       "url": "https://tradealliancecorporation.com/",
       "startDate": "2012-05-01",
       "endDate": "2014-05-31",
-      "summary": "Análisis de datos de ventas, compras, operaciones y posterior procesamiento en ERP Microsoft Dynamics GP, control y analisis de inventarios, diseño creacion y presentacion de reportes y KPIs, Apoyo en la gestión y administración de bases de datos. Despues del primer año y con mentoria participe en desarrollos de software para automatización de procesos del area mediante programas de escritorio, consola y ETLs asi como optimizacion de procesos redundantes y apoyo en el mantenimeinto de Data Ware House de la compañia",
+      "summary": "Análisis de datos de ventas, compras, operaciones y posterior procesamiento en ERP Microsoft Dynamics GP, control y análisis de inventarios, diseño creación y presentación de reportes y KPIs, Apoyo en la gestión y administración de bases de datos. Después del primer año y con mentoria participe en desarrollos de software para automatización de procesos del area mediante programas de escritorio, consola y ETLs asi como optimización de procesos redundantes y apoyo en el mantenimiento de Data Ware House de la compañía",
       "highlights": [
-        "Analisis",
+        "Análisis",
         "HTML5",
         "JavaScript",
         "CSS",
@@ -235,7 +235,7 @@
         ".Net Framework",
         "Windows Server",
         "Microsoft SQL Server",
-        "Microsoft Analisis Services",
+        "Microsoft Analysis Services",
         "Microsoft Integration Services",
         "Visual Studio",
         "Data Ware House",
@@ -248,13 +248,13 @@
       "position": "Analista de Inventarios",
       "startDate": "2011-02-01",
       "endDate": "2012-04-30",
-      "summary": "Responsable de analisis de inventarios, atención y gestión con proveedores",
+      "summary": "Responsable de análisis de inventarios, atención y gestión con proveedores",
       "highlights": [
-        "Analisis",
+        "Análisis",
         "Inventarios",
         "Planning",
         "Proveedores",
-        "Gestion merma",
+        "Gestión merma",
         "Autogestión"
       ]
     }
@@ -276,7 +276,7 @@
     {
       "institution": "Corporación Unificada Nacional de Educación Superior",
       "url": "https://cun.edu.co/",
-      "area": "Profesional en Ingenieria de Sistemas",
+      "area": "Profesional en Ingeniería de Sistemas",
       "studyType": "Profesional",
       "startDate": "2013-05-01",
       "endDate": null,
@@ -288,25 +288,25 @@
     {
       "institution": "Corporación Unificada Nacional de Educación Superior",
       "url": "https://cun.edu.co/",
-      "area": "Tecnologo en Desarrollo de Software y Redes",
-      "studyType": "Tecnologo",
+      "area": "Tecnólogo en Desarrollo de Software y Redes",
+      "studyType": "Tecnología",
       "startDate": "2013-05-01",
       "endDate": "2022-11-01",
       "score": "4.5",
       "courses": [
-        "Tecnologo en Sistemas"
+        "Tecnología en Sistemas"
       ]
     },
     {
       "institution": "Corporación Unificada Nacional de Educación Superior",
       "url": "https://cun.edu.co/",
-      "area": "Tecnico Profesional en Ingenieria de Sistemas",
-      "studyType": "Tecnico",
+      "area": "Técnico Profesional en Ingeniería de Sistemas",
+      "studyType": "Técnico",
       "startDate": "2013-05-01",
       "endDate": "2022-05-01",
       "score": "4.5",
       "courses": [
-        "Tecnico en Sistemas"
+        "Técnico en Sistemas"
       ]
     }
   ],
@@ -732,7 +732,7 @@
   ],
   "interests": [
     {
-      "name": "Tecnologia",
+      "name": "Tecnología",
       "keywords": []
     },
     {
@@ -767,9 +767,9 @@
       "name": "Portal Tiendas",
       "isActive": true,
       "github": "",
-      "description": "Plataforma WEB desarrollada en .Net, C#, Html, CSS y Web Services. Retos asociados a el registro, actualizacion, visualizacion y borrado(logico) de datos de ventas, compras, operaciones, asi como presentacion de reportes, gestion de horarios, modulo creador encuestas, modulo COVID, entre otros propias del negocio de la empresa.",
+      "description": "Plataforma WEB desarrollada en .Net, C#, Html, CSS y Web Services. Retos asociados a el registro, actualización, visualización y borrado(lógico) de datos de ventas, compras, operaciones, asi como presentación de reportes, gestión de horarios, modulo creador encuestas, modulo COVID, entre otros propias del negocio de la empresa.",
       "highlights": [
-        "conexion con erp SAP",
+        "conexión con erp SAP",
         "backups",
         "responsive",
         "+2 millones de datos",
@@ -783,7 +783,7 @@
     {
       "name": "APO",
       "isActive": true,
-      "description": "Portal WEB desarrollado en AspNet MVC, Sql Server, Web Services integrado con el SSO de Google y LDAP para la gestion 360 de los colaboradores desde el area de Recursos Humanos con programas de seguimiento, retos, objetivos y mentoria para procesos de promoción basados en un programa propio de la organizacion.",
+      "description": "Portal WEB desarrollado en AspNet MVC, Sql Server, Web Services integrado con el SSO de Google y LDAP para la gestión 360 de los colaboradores desde el area de Recursos Humanos con programas de seguimiento, retos, objetivos y mentoria para procesos de promoción basados en un programa propio de la organización.",
       "highlights": [
         "+1000 usuarios",
         "Responsive",
@@ -800,10 +800,10 @@
     {
       "name": "DailySales",
       "isActive": false,
-      "description": "Aplicación (Web, Console, Desktop, Windows Service) que se conecta a Servicios FTP, SFTP y Web para la lectura, transformación, normalizacion y respaldo en base de datos Sql Server a partir de archivos planos, XML y CSV. Ademas de presentar analisis de los datos con proyecciones hacia el futuro con datos historicos, alertas por correo, mensajes push y en dashboard para evidenciar anomalias y datos faltantes como datos incoherentes.",
+      "description": "Aplicación (Web, Console, Desktop, Windows Service) que se conecta a Servicios FTP, SFTP y Web para la lectura, transformación, normalización y respaldo en base de datos Sql Server a partir de archivos planos, XML y CSV. Ademas de presentar análisis de los datos con proyecciones hacia el futuro con datos históricos, alertas por correo, mensajes push y en dashboard para evidenciar anomalías y datos faltantes como datos incoherentes.",
       "highlights": [
-        "+5 MM tuplas por dia",
-        "Automatizacion",
+        "+5 MM registros por dia",
+        "Automatización",
         "Sql Server",
         "SSRS",
         "Web, Console, Desktop App",
@@ -814,9 +814,9 @@
       "url": "https://tradealliancecorporation.com/"
     },
     {
-      "name": "Portal Logistica",
+      "name": "Portal Logística",
       "isActive": false,
-      "description": "Plataforma que gestiona los procesos de aduanas propios de la compañia para las importaciones de mercancia, se conecta con servicios web y api REST de empresas aduaneras para obtener la gestión en tiempo real de la mercancia asi como conectar con ERP Propio y entregar datos al area Logistica y contable, ademas de mejorar los procesos manuales y operacionales del equipo Logistico",
+      "description": "Plataforma que gestiona los procesos de aduanas propios de la compañía para las importaciones de mercancía, se conecta con servicios web y api REST de empresas aduaneras para obtener la gestión en tiempo real de la mercancía asi como conectar con ERP Propio y entregar datos al area Logística y contable, ademas de mejorar los procesos manuales y operacionales del equipo Logístico",
       "highlights": [
         "Procesamiento archivos csv, excel, planos, json y xml",
         "Sql Server",
@@ -824,17 +824,17 @@
         "Web",
         "SOAP",
         "REST Api",
-        "Automatizacion"
+        "Automatización"
       ],
       "url": "https://tradealliancecorporation.com/"
     },
     {
       "name": "Portal Terceros",
       "isActive": true,
-      "description": "Portal WEB desarrollado en Asp .Net y C# que se conecta mediante servicios web a ERP SAP y Dynamics GP para presentar a los terceros propios de la empresa y entregar mediante correo electronico el reporte de Ingresos y retenciones indicado para cada uno de acuerdo a las opciones disponibles para cada Tercero que interactua desde el portal WEB",
+      "description": "Portal WEB desarrollado en Asp .Net y C# que se conecta mediante servicios web a ERP SAP y Dynamics GP para presentar a los terceros propios de la empresa y entregar mediante correo electrónico el reporte de Ingresos y retenciones indicado para cada uno de acuerdo a las opciones disponibles para cada Tercero que interactúa desde el portal WEB",
       "highlights": [
         "SAP",
-        "Dinamycs GP",
+        "Dynamics GP",
         "Sql Server",
         "SSRS",
         "Web",
@@ -845,7 +845,7 @@
     {
       "name": "Portal Colaborador",
       "isActive": true,
-      "description": "Portal WEB desarrollado en Asp .Net, C# y tecnologias Web basadas en Javascript que se integra con servicios web, SSO Google, SAP y servicios de terceros para presentar información y documentos propios del Colaborador como certificados, boletas de pago, solicitar permisos, gestionar lugar de trabajo",
+      "description": "Portal WEB desarrollado en Asp .Net, C# y tecnologías Web basadas en Javascript que se integra con servicios web, SSO Google, SAP y servicios de terceros para presentar información y documentos propios del Colaborador como certificados, boletas de pago, solicitar permisos, gestionar lugar de trabajo",
       "highlights": [
         "SAP",
         "Sql Server",
@@ -854,7 +854,7 @@
         "SOAP",
         "Bootstrap",
         "Jquery",
-        "Usuarios +5 Paises",
+        "Usuarios +5 Países",
         "Azure DevOps"
       ],
       "url": "https://tradealliancecorporation.com/"
@@ -862,22 +862,22 @@
     {
       "name": "Java App",
       "isActive": false,
-      "description": "Aplicacion desarrollada en Java que realiza el orquestamiento de conexion/descarga a distintos servidores SFTP y FTP para la descarga y normalizacion de multiples archivos y posterior alojamiento en varios repositorios (FTP, Servidor de archivos y Google Drive GCP)",
+      "description": "Aplicación desarrollada en Java que realiza el orquestamiento de conexión/descarga a distintos servidores SFTP y FTP para la descarga y normalización de multiples archivos y posterior alojamiento en varios repositorios (FTP, Servidor de archivos y Google Drive GCP)",
       "highlights": [
         "Sql Server",
         "FTP",
         "Google Drive (GCP)",
         "Java",
-        "Postgresql",
+        "PostgreSQL",
         "MySql",
         "XML"
       ],
       "url": "https://tradealliancecorporation.com/"
     },
     {
-      "name": "Logistica App",
+      "name": "Logística App",
       "isActive": true,
-      "description": "Aplicación Web desarrollada en React, NodeJS y Api REST (NetCore) para la autogestion de visitas de comerciales y directivos a tienda, asi como la presentacion de dashboard analiticos de ventas y operaciones, responsive y con autenticacion SSO de Google",
+      "description": "Aplicación Web desarrollada en React, NodeJS y Api REST (NetCore) para la autogestión de visitas de comerciales y directivos a tienda, asi como la presentación de dashboard analíticos de ventas y operaciones, responsive y con autenticación SSO de Google",
       "highlights": [
         "Sql Server",
         "JSON",
@@ -894,7 +894,7 @@
     {
       "name": "Modulo Absentismos",
       "isActive": true,
-      "description": "Creacion de nuevo modulo en aplicacion existente para la gestión sobre absentismos y control de horas extras, incorporacion de logica para controlar los horarios y descansos de personal que cubre turnos en una empresa, asi como la liquidación mensual y quincenal basados en marcaciones biometricos y de turnos",
+      "description": "Creación de nuevo modulo en aplicación existente para la gestión sobre absentismos y control de horas extras, incorporación de lógica para controlar los horarios y descansos de personal que cubre turnos en una empresa, asi como la liquidación mensual y quincenal basados en marcaciones biometricos y de turnos",
       "highlights": [
         "Sql Server",
         "Azure SQL",
@@ -908,12 +908,12 @@
     {
       "name": "Control Biometrico",
       "isActive": false,
-      "description": "Desarrollo de aplicacion de consola y servicio de windows para la conexion con distintos dispositivos biometricos ZK que realizan la automatizacion de lectura/cargue de marcaciones del personal de la compañia, permitiendo integrarse con ERP SAP, Casino (tercero) y automatizar la descarga y limpieza de los dispositivos mediante protocolo TCP/IP",
+      "description": "Desarrollo de aplicación de consola y servicio de windows para la conexión con distintos dispositivos biometricos ZK que realizan la automatización de lectura/cargue de marcaciones del personal de la compañía, permitiendo integrarse con ERP SAP, Casino (tercero) y automatizar la descarga y limpieza de los dispositivos mediante protocolo TCP/IP",
       "highlights": [
         "Sql Server",
         "Net CORE",
         "Azure DevOps",
-        "Automatizacion",
+        "Automatización",
         "Redis",
         "Biometria",
         "SOAP"
@@ -923,12 +923,12 @@
     {
       "name": "BCIntegration App",
       "isActive": false,
-      "description": "Desarrollo de aplicacion en .Net CORE, Angular, Postgresql, Redis que conecta servicios y Api de Microsoft Bussines Central para las customizaciones propias con el ERP, buscaba centralizar la gestion a nivel del ERP del modulos compras y ventas desde una sola aplicacion de una forma mas amigable, simple y rapida desplegada con los servicios de AWS",
+      "description": "Desarrollo de aplicación en .Net CORE, Angular, PostgreSQL, Redis que conecta servicios y Api de Microsoft Bussines Central para las customizaciones propias con el ERP, buscaba centralizar la gestión a nivel del ERP del módulos compras y ventas desde una sola aplicación de una forma mas amigable, simple y rápida desplegada con los servicios de AWS",
       "highlights": [
-        "Postgresql",
+        "PostgreSQL",
         "Net CORE",
         "Azure DevOps",
-        "Automatizacion",
+        "Automatización",
         "Redis",
         "NodeJS",
         "Angular",
@@ -941,12 +941,12 @@
     {
       "name": "HSG WorkPlace",
       "isActive": false,
-      "description": "Aplicacion web desarrollada en .Net Core para la gestión de PQRs de empresa sector administradora de propiedad horizontal, contaba con flujo de atencion a casos reportados por usuarios (propietarios/residentes), contaba con cargue de archivos, casos, controlado por perfiles y roles especificos, area de noticias y comunicados",
+      "description": "Aplicación web desarrollada en .Net Core para la gestión de PQRs de empresa sector administradora de propiedad horizontal, contaba con flujo de atención a casos reportados por usuarios (propietarios/residentes), contaba con cargue de archivos, casos, controlado por perfiles y roles específicos, area de noticias y comunicados",
       "highlights": [
-        "Postgresql",
+        "PostgreSQL",
         "Net CORE",
         "GitHub",
-        "Automatizacion",
+        "Automatización",
         "Redis",
         "Angular",
         "AWS",
