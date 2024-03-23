@@ -1,0 +1,135 @@
+---
+import Section from "../Section.astro";
+
+import { education, certificates } from "@cv";
+---
+
+<Section title="Educación">
+    <ul>
+        {
+            education.map(({ institution, startDate, endDate, area, url }) => {
+                const startYear = new Date(startDate).getFullYear();
+                const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual";
+                const years = `${startYear} - ${endYear}`;
+
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3>
+                                        <a href={url} title={`Ir ${institution}`} target="_blank">
+                                            {institution}
+                                        </a>
+                                    </h3>
+                                </div>
+                                <time>{years}</time>
+                            </header>
+
+                            <footer>
+                                <p>{area}</p>
+                            </footer>
+                        </article>
+                    </li>
+                );
+            })
+        }
+    </ul>
+</Section>
+
+<Section subtitle="Cursos y Certificaciones">
+    <ul>
+        {
+            certificates.map(({ issuer, courses, url }) => {
+                const data = courses.map(({ name, date, url, ID }) => {
+                    const dateString = `${date.toLocaleString()}`;
+
+                    return (
+                        <article>
+                            <header>
+                                <p>
+                                    <a href={url} target="_blank" title={`Ver certificado en linea de: ${name}`}>
+                                        {name}
+                                    </a>
+                                </p>
+                                <time>{dateString}</time>
+                            </header>
+                            <footer hidden>
+                                {ID && (
+                                    <p>
+                                        Id: <span>{ID}</span>
+                                    </p>
+                                )}
+                            </footer>
+                        </article>
+                    );
+                });
+
+                return (
+                    <li>
+                        <h3>
+                            <a target="_blank" href={url}>{issuer}</a>
+                        </h3>
+                        {data}
+                    </li>
+                );
+            })
+        }
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    li > h3 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: #292828;
+        margin: 16px auto 16px;
+        text-decoration: underline;
+    }
+
+    article h3 {
+        font-weight: 500;
+        color: #111;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+
+    header h3 {
+        /*text-decoration: underline;*/
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+        min-width: 102px;
+    }
+
+    p > a:hover {
+        cursor: pointer;
+        color: #111;
+        font-weight: 550;
+    }
+
+    footer > p > span {
+        font-size: 0.65rem;
+        font-weight: 500;
+        /*text-decoration: underline;*/
+    }
+
+    @media (width <= 700px) {
+        time {
+            text-align: right;
+        }
+    }
+</style>

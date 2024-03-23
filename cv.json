@@ -1,0 +1,958 @@
+{
+  "basics": {
+    "name": "Mairon Andres Florez",
+    "label": "Full Stack Developer con más de 10 años de experiencia",
+    "image": "https://media.licdn.com/dms/image/C5603AQGwvmyVXXT5qw/profile-displayphoto-shrink_800_800/0/1559312331247?e=1716422400&v=beta&t=HpQvWJwXpkV0Ctks9J2BKskPhhDk1KPtfYOtKd2YOi8",
+    "email": "andresflorez0799@gmail.com",
+    "phone": "+57 3058128826",
+    "url": "https://www.linkedin.com/in/mairon-andr%C3%A9s-florez-alvarez-340124137/",
+    "summary": "Desarrollador de software y apasionado por la tecnologia. He participado en la planificacion, desarrollo, creacion e implementacion de soluciones de tecnologia como servicios Web, sitios web personalizados, aplicaciones de escritorio, integraciones con SAP, Google, Dynamics. Como independiente he participado en la creacion de sistemas y automatizaciones para empresas, consultorias en desarrollo de software, proveedor de servicios.",
+    "location": {
+      "address": "",
+      "postalCode": "250001",
+      "city": "Chia, Cundinamarca",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mairon-andrés-florez-alvarez-340124137",
+        "url": "https://www.linkedin.com/in/mairon-andr%C3%A9s-florez-alvarez-340124137/"
+      },
+      {
+        "network": "X",
+        "username": "andresflorez0799",
+        "url": "https://x.com/andresflorez0799"
+      },
+      {
+        "network": "GitHub",
+        "username": "andresflorez0799",
+        "url": "https://github.com/andresflorez0799"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Belltech",
+      "position": "Consultor SSPP",
+      "url": "https://belltech.la/",
+      "startDate": "2022-12-01",
+      "endDate": null,
+      "summary": "Desarollo de aplicaciones en .Net Framework, HTML, CSS y JavaScript para cliente del sector Bancario. Gestión de tareas, HU, repositorios y gestion de ciclo de proyectos en Azure DevOps. Atencion a cliente interno y externo, pruebas unitarias y soporte de segundo nivel, analisis y revision de codigo con apoyo en Sonar Cloud, entre otras actividades propias del cargo.",
+      "highlights": [
+        "KAL",
+        "K3A",
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "JQuery",
+        "C#",
+        ".Net Framework",
+        "WCF",
+        "Sonar Cloud",
+        "Azure DevOps",
+        "Softkills",
+        "GitHub",
+        "JFrog",
+        "Visual Studio",
+        "Visual Studio Code",
+        "Postman",
+        "WSL",
+        "Hyper-V",
+        "vagrant",
+        "Remote Debugger"
+      ]
+    },
+    {
+      "name": "Mectronics S. A",
+      "position": "Ingeniero de desarrollo Senior",
+      "url": "https://www.mectronics.co/",
+      "startDate": "2022-05-01",
+      "endDate": "2022-11-30",
+      "summary": "Desarrollo de nuevas funcionalidades en aplicaciones .Net, Servicios SOAP (WCF), apoyo técnico en implementaciones, documentación, pruebas, gestión de tareas y repositorios en Microsoft TFS, bases de datos en SQL Server, y servicios en la nube como Cosmos DB, Azure SQL, Azure Data Factory. Mejora continua en código existente y querys SQL (funciones, store procedures y vistas), apoyo y mentoria al equipo entre otras funciones propias del cargo.",
+      "highlights": [
+        "HTML5",
+        "JavaScript",
+        "CSS",
+        "JQuery",
+        "Bootstrap 3",
+        "Kendo UI Framework",
+        "C#",
+        ".Net Framework",
+        "WCF",
+        "Microsoft TFS",
+        "Microsoft SQL Server",
+        "Azure Data Factory",
+        "Azure Cosmos DB",
+        "Azure SQL",
+        "Mongo",
+        "WCF",
+        "Softkills",
+        "Visual Studio",
+        "Visual Studio Code",
+        "Postman"
+      ]
+    },
+    {
+      "name": "Trade Alliance Corporation",
+      "position": "Coordinador Semi-Senior regional de Desarrollo",
+      "url": "https://tradealliancecorporation.com/",
+      "startDate": "2020-09-01",
+      "endDate": "2022-04-30",
+      "summary": "Liderazgo de equipo desarrollo, planificación y gestión de proyectos de software, seguimiento de actividades y entrega de resultados a Stakeholders. Configuración, mantenimiento y control de los repositorios de softaware, apoyo y mentoria al equipo y soporte de tercer nivel. Procesos de reclutamiento (diseño, calificación y recibir entrevistas tecnicas)",
+      "highlights": [
+        "Liderazgo",
+        "SCRUM",
+        "Proyectos",
+        "planificacion",
+        "Softkills",
+        "REST",
+        "WCF",
+        "SOAP",
+        "HTML5",
+        "JavaScript",
+        "CSS",
+        "JQuery",
+        "Bootstrap",
+        "C#",
+        ".Net Framework",
+        "Net CORE",
+        "CI/CD",
+        "Azure DevOps",
+        "Visual Basic",
+        "Java"
+      ]
+    },
+    {
+      "name": "Trade Alliance Corporation",
+      "position": "Lider Junior de Desarrollo de Software",
+      "url": "https://tradealliancecorporation.com/",
+      "startDate": "2016-04-01",
+      "endDate": "2020-08-31",
+      "summary": "Responsable de liderar los proyectos de desarrollo de Software de la compañia para lograr los resultados esperados en tiempo y forma de acuerdo a las  necesidades de automatizacion, digitalizacion y optimizacion. Ejecutar y llevar control sobre los resultados, pruebas y funcionalidades finales de los proyectos. relacionamiento con  usuarios y clientes (interno y proveedores). Toma de decisiones operativas necesarias para mantener el proyecto en tiempo, alcances y costo. Aprobación, seguimiento y control de codigo fuente de las aplicaciones asi como automaticaciones (CI/CD con Azure DevOps)",
+      "highlights": [
+        "Liderazgo",
+        "planificacion",
+        "Softkills",
+        "Analisis",
+        "REST",
+        "WCF",
+        "SOAP",
+        "HTML5",
+        "JavaScript",
+        "CSS",
+        "JQuery",
+        "Bootstrap",
+        "C#",
+        ".Net Framework",
+        "Net CORE",
+        "CI/CD",
+        "Azure DevOps",
+        "Visual Basic",
+        "XUnit",
+        "Windows Server",
+        "Microsoft SQL Server",
+        "Microsoft Analisis Services",
+        "Visual Studio",
+        "Visual Studio Code",
+        "Postman",
+        "SOAP UI"
+      ]
+    },
+    {
+      "name": "Trade Alliance Corporation",
+      "position": "Profesional en Desarrollo de Software",
+      "url": "https://tradealliancecorporation.com/",
+      "startDate": "2015-05-01",
+      "endDate": "2016-04-30",
+      "summary": "Desarrollo de nuevas aplicaciones, agregar nuevas funcionalidades a desarrollos existentes y creacion de servicios web (SOAP, REST) bajo tecnologias Microsoft (C#, .Net, WCF, MVC). Apoyo en el diseño de arquitectura de software, creacion (DB, Tables, StoreProcedure, Views, T-SQL) y gestion de bases de datos de aplicaciones (DQL, DML, DDL, DCL). Documentación y apoyo tecnico en la definicion de HUs, soporte de 2 y 3 nivel asi como mentoria a los Devs",
+      "highlights": [
+        "Analisis",
+        "REST",
+        "WCF",
+        "SOAP",
+        "HTML5",
+        "JavaScript",
+        "CSS",
+        "JQuery",
+        "Bootstrap",
+        "C#",
+        ".Net Framework",
+        "CI/CD",
+        "Azure DevOps",
+        "Visual Basic",
+        "XUnit",
+        "Windows Server",
+        "Microsoft SQL Server",
+        "Microsoft Analisis Services",
+        "Visual Studio",
+        "Visual Studio Code",
+        "Postman",
+        "SOAP UI"
+      ]
+    },
+    {
+      "name": "Trade Alliance Corporation",
+      "position": "Analista Junior de Desarrollo de Software",
+      "url": "https://tradealliancecorporation.com/",
+      "startDate": "2014-05-01",
+      "endDate": "2015-05-31",
+      "summary": "Desarrollo de funcionalidades en aplicativos existentes. Soporte de primer nivel en aplicativos In-house y de terceros implementados (Talents, Dinamics CRM, ReqLogic, entre otras), diseño, creación y publicación de reporteria en Sql Server Reporting Services, agregar modificar y dar soporte a funcionalidades sobre sistemas de integracion de datos ETL (Sql Server Integration Services), creacion de scripts sql para extraccion de data y analisis. Atencion y soporte especializado al usuario sobre herramientas ofimatica y de aplicativos propios, preparacion y presentación de indicadores de gestión realizados en cada sprint. Adciional en este periodo (May/14-Oct/14) Administracion y gestion de usuarios en sistema SAP, administracion, creacion y configuracion de los permisos, roles y perfiles en el sistema, ademas de colaborar en la gestion sobre los cubos en SAP BW.",
+      "highlights": [
+        "Analisis",
+        "HTML5",
+        "JavaScript",
+        "CSS",
+        "JQuery",
+        "Bootstrap",
+        "C#",
+        ".Net Framework",
+        "Azure DevOps",
+        "Windows Server",
+        "Microsoft SQL Server",
+        "Microsoft Analisis Services",
+        "Visual Studio",
+        "Visual Studio Code",
+        "SAP BW"
+      ]
+    },
+    {
+      "name": "Trade Alliance Corporation",
+      "position": "Analista de Procesamiento",
+      "url": "https://tradealliancecorporation.com/",
+      "startDate": "2012-05-01",
+      "endDate": "2014-05-31",
+      "summary": "Análisis de datos de ventas, compras, operaciones y posterior procesamiento en ERP Microsoft Dynamics GP, control y analisis de inventarios, diseño creacion y presentacion de reportes y KPIs, Apoyo en la gestión y administración de bases de datos. Despues del primer año y con mentoria participe en desarrollos de software para automatización de procesos del area mediante programas de escritorio, consola y ETLs asi como optimizacion de procesos redundantes y apoyo en el mantenimeinto de Data Ware House de la compañia",
+      "highlights": [
+        "Analisis",
+        "HTML5",
+        "JavaScript",
+        "CSS",
+        "JQuery",
+        "C#",
+        "Visual Basic",
+        ".Net Framework",
+        "Windows Server",
+        "Microsoft SQL Server",
+        "Microsoft Analisis Services",
+        "Microsoft Integration Services",
+        "Visual Studio",
+        "Data Ware House",
+        "Dynamics GP",
+        "Inventarios"
+      ]
+    },
+    {
+      "name": "Carrefour",
+      "position": "Analista de Inventarios",
+      "startDate": "2011-02-01",
+      "endDate": "2012-04-30",
+      "summary": "Responsable de analisis de inventarios, atención y gestión con proveedores",
+      "highlights": [
+        "Analisis",
+        "Inventarios",
+        "Planning",
+        "Proveedores",
+        "Gestion merma",
+        "Autogestión"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Corporación Unificada Nacional de Educación Superior",
+      "url": "https://cun.edu.co/",
+      "area": "Profesional en Ingenieria de Sistemas",
+      "studyType": "Profesional",
+      "startDate": "2013-05-01",
+      "endDate": null,
+      "score": "4.0",
+      "courses": [
+        "Ingeniero de Sistemas"
+      ]
+    },
+    {
+      "institution": "Corporación Unificada Nacional de Educación Superior",
+      "url": "https://cun.edu.co/",
+      "area": "Tecnologo en Desarrollo de Software y Redes",
+      "studyType": "Tecnologo",
+      "startDate": "2013-05-01",
+      "endDate": "2022-11-01",
+      "score": "4.5",
+      "courses": [
+        "Tecnologo en Sistemas"
+      ]
+    },
+    {
+      "institution": "Corporación Unificada Nacional de Educación Superior",
+      "url": "https://cun.edu.co/",
+      "area": "Tecnico Profesional en Ingenieria de Sistemas",
+      "studyType": "Tecnico",
+      "startDate": "2013-05-01",
+      "endDate": "2022-05-01",
+      "score": "4.5",
+      "courses": [
+        "Tecnico en Sistemas"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/AndrewJS",
+      "courses": [
+        {
+          "name": "Curso de Azure DevOps: Flujos de CI/CD",
+          "date": "2022-12-06",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/3275-course/diploma/detalle/",
+          "ID": "f37160be-cc2a-47a1-ae8e-4b0f09488cf7"
+        },
+        {
+          "name": "Curso de C#: Manejo de datos con LINQ",
+          "date": "2022-11-21",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/4263-linq/diploma/detalle/",
+          "ID": "bc3d977f-77e3-415b-a410-7cf3f7fa6f3c"
+        },
+        {
+          "name": "Curso de Fundamentos de .NET",
+          "date": "2022-11-23",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/2883-fundamentos-net/diploma/detalle/",
+          "ID": "a0e27a16-45db-48ce-865e-583c9a84c309"
+        },
+        {
+          "name": "Curso de Asincronismo con JavaScript",
+          "date": "2022-09-12",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/3175-course/diploma/detalle/",
+          "ID": "1e53b01e-b31e-4325-8d8d-ba6a55fdcf2f"
+        },
+        {
+          "name": "Curso de Closures y Scope en JavaScript",
+          "date": "2022-09-03",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/3213-javascript-closures-scope/diploma/detalle/",
+          "ID": "a34a24c1-5240-4051-990f-3815d951a44e"
+        },
+        {
+          "name": "Curso de ECMAScript 6+",
+          "date": "2022-09-05",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/1815-ecmascript-6/diploma/detalle/",
+          "ID": "3f8d7535-723d-4b86-a633-98fb70ff37c0"
+        },
+        {
+          "name": "Curso Práctico de JavaScript",
+          "date": "2022-09-03",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/3271-javascript-practico/diploma/detalle/",
+          "ID": "c0b87a78-7ada-4bef-897b-50be9fe0e75f"
+        },
+        {
+          "name": "Curso Básico de JavaScript",
+          "date": "2022-08-30",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/1814-basico-javascript/diploma/detalle/",
+          "ID": "fb7bfc05-65e9-4d26-ba76-b99610216110"
+        },
+        {
+          "name": "Curso Básico de MongoDB",
+          "date": "2022-08-30",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/1533-mongodb/diploma/detalle/",
+          "ID": "724c5308-7581-487b-9472-295f2c5173a3"
+        },
+        {
+          "name": "Curso Práctico de Frontend Developer",
+          "date": "2022-08-29",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/2477-frontend-developer-practico/diploma/detalle/",
+          "ID": "ad4c9c4d-0264-4490-b816-c6301852928a"
+        },
+        {
+          "name": "Curso de Frontend Developer",
+          "date": "2022-07-31",
+          "issuer": "Platzi",
+          "url": "https://platzi.com/p/AndrewJS/curso/2467-frontend-developer/diploma/detalle/",
+          "ID": "7e80f48c-8a80-414d-82a8-ce66544db426"
+        }
+      ]
+    },
+    {
+      "issuer": "LinkedIn Learning",
+      "url": "https://learning.linkedin.com/",
+      "courses": [
+        {
+          "name": "Aprende Kubernetes",
+          "date": "2022-12-23",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/3699e99f09f619b57d8bec370ad0b03d86132b5d3e80e21b131bfeae44a63427?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3BioiM7ICDSlO0rI5BWHXIiw%3D%3D",
+          "ID": "ARAL0uAZd-tqkruefkwlai-YISVD"
+        },
+        {
+          "name": "Node.js esencial",
+          "date": "2021-10-22",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/bbeaa8cf96bf18e30e3b2a768387f1f6426147651739073c3d5f91411143f058",
+          "ID": "bbeaa8cf96bf18e30e3b2a768387f1f6426147651739073c3d5f91411143f058"
+        },
+        {
+          "name": "Fundamentos de la programación: API y servicios web",
+          "date": "2021-10-24",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/b26a9579d7b3db18d1fc32a3314f91d2fb967bf85c6f43c5808c3c6482e33d5e",
+          "ID": "AQDN6MAdJafUumlmoJs5WyExXd79"
+        },
+        {
+          "name": ".NET Core esencial",
+          "date": "2021-10-10",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/ee1884850ed8c04bb441d30b1faaf1c0f99d2df2c9417ad5512b495185c4d898?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BKbSSN9duTYG68Jc0ry0iZw%3D%3D",
+          "ID": "AdHaWoDqYyD2gzaOvzq9Y6HJEceb"
+        },
+        {
+          "name": "Aprende semántica web",
+          "date": "2021-10-16",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/547e95809ed2cdf7d0afca61aa0c76e3655a4f3d53545464f75717e4f2f728bf?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BKbSSN9duTYG68Jc0ry0iZw%3D%3D",
+          "ID": "547e95809ed2cdf7d0afxa61aa0c76e3655a4f3d53545464f75717e4f2f28bf"
+        },
+        {
+          "name": "Arquitectura de software: Patrones esencial",
+          "date": "2021-10-07",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/583ee36bef7fdddefda69baa66866e5068c4433d4c1273a784ed9ef981bae3ee?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BKbSSN9duTYG68Jc0ry0iZw%3D%3D",
+          "ID": "AeIslHw7mgpCK6BBqlnADjHEVc3E"
+        },
+        {
+          "name": "C#: Interfaces, delegados, eventos y genéricos esencial",
+          "date": "2021-10-06",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/d90358208ab45846a9379bd89cff219357ee2a3a337370992139ba4b605e4f0e?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BKbSSN9duTYG68Jc0ry0iZw%3D%3D",
+          "ID": "Af2JuBOgZwMCiNUd0QtTxwCeVqlf"
+        },
+        {
+          "name": "CSS esencial",
+          "date": "2021-10-16",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/285192524c89753ecdcf588b03ca537eec4f90ab7c63506aeeb4e8417c99f47c?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BKbSSN9duTYG68Jc0ry0iZw%3D%3D",
+          "ID": "AXhZQxPvPMOnqFNCzG1bziVtllxn"
+        },
+        {
+          "name": "DevOps con un café",
+          "date": "2021-10-07",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/cc441d2e6af0beb46cc5a4f2d5fd44a04e4085179f8d522c174807d008b7e6bc?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BKbSSN9duTYG68Jc0ry0iZw%3D%3D",
+          "ID": "cc441d2e6af0beb46cc5a4f2d5fd44a04e4085179f8d522cl74807d008b7e6bc"
+        },
+        {
+          "name": "SQL Server para programación avanzado",
+          "date": "2021-10-10",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/d52230e2f1b13f9abe90bea4b5ee65dbc88dbb50855ba890e68d62d0f2a03375?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BKbSSN9duTYG68Jc0ry0iZw%3D%3D",
+          "ID": "AcxtC2anHsQih1wJAMdubkNrMfJE"
+        },
+        {
+          "name": "Scrum avanzado",
+          "date": "2021-10-13",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/4200f341a0e4fbd46a6ef5bc90f38475378d9bb364af140635d24cdf1d305f45?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BKbSSN9duTYG68Jc0ry0iZw%3D%3D",
+          "ID": "4200f341a0e4fbd46a6ef5bc90f38475378d9bb364af140635d24cdfld305f45"
+        },
+        {
+          "name": "JavaScript avanzado: Buenas prácticas",
+          "date": "2020-03-10",
+          "issuer": "LinkedIn Learning",
+          "url": "https://www.linkedin.com/learning/certificates/fafb91f94054b615aa0126620f1139ec4d5fbed006f5bb484b0a05e8261bff23?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BKbSSN9duTYG68Jc0ry0iZw%3D%3D",
+          "ID": "AYljfm4P48TakwpGjOTPx5_j1mx5"
+        }
+      ]
+    },
+    {
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/",
+      "courses": [
+        {
+          "name": "Dart: De cero hasta los detalles",
+          "date": "2020-03-10",
+          "issuer": "Udemy",
+          "url": "https://www.udemy.com/certificate/UC-ATWKK4MT/",
+          "ID": "UC-ATWKK4MT"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Backend"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "CSharp",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "DotNet",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "SQLServer",
+      "level": "Avanzado",
+      "keywords": [
+        "DML",
+        "DCL",
+        "DQL",
+        "DDL"
+      ]
+    },
+    {
+      "name": "Mongo",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Postgresql",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "JQuery",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "SonarCloud",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Azure",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "JFrog",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "VisualStudio",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Code",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Postman",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    },
+    {
+      "name": "CICD",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Tecnologia",
+      "keywords": []
+    },
+    {
+      "name": "Videojuegos",
+      "keywords": []
+    },
+    {
+      "name": "Naturaleza",
+      "keywords": []
+    },
+    {
+      "name": "Cine",
+      "keywords": []
+    },
+    {
+      "name": "Auto-aprendizaje",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Ing. Fabian Leyton",
+      "reference": "+57 3005508244"
+    },
+    {
+      "name": "Ing. Jose Pardo",
+      "reference": "+57 3174046508"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portal Tiendas",
+      "isActive": true,
+      "github": "",
+      "description": "Plataforma WEB desarrollada en .Net, C#, Html, CSS y Web Services. Retos asociados a el registro, actualizacion, visualizacion y borrado(logico) de datos de ventas, compras, operaciones, asi como presentacion de reportes, gestion de horarios, modulo creador encuestas, modulo COVID, entre otros propias del negocio de la empresa.",
+      "highlights": [
+        "conexion con erp SAP",
+        "backups",
+        "responsive",
+        "+2 millones de datos",
+        "concurrencia",
+        "portabilidad",
+        "Azure DevOps",
+        "TFS"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "APO",
+      "isActive": true,
+      "description": "Portal WEB desarrollado en AspNet MVC, Sql Server, Web Services integrado con el SSO de Google y LDAP para la gestion 360 de los colaboradores desde el area de Recursos Humanos con programas de seguimiento, retos, objetivos y mentoria para procesos de promoción basados en un programa propio de la organizacion.",
+      "highlights": [
+        "+1000 usuarios",
+        "Responsive",
+        "Sql Server",
+        "Asp .Net MVC",
+        "SOAP Services",
+        "OAuth GCP, LDAP",
+        "Azure DevOps",
+        "TFS",
+        "IIS"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "DailySales",
+      "isActive": false,
+      "description": "Aplicación (Web, Console, Desktop, Windows Service) que se conecta a Servicios FTP, SFTP y Web para la lectura, transformación, normalizacion y respaldo en base de datos Sql Server a partir de archivos planos, XML y CSV. Ademas de presentar analisis de los datos con proyecciones hacia el futuro con datos historicos, alertas por correo, mensajes push y en dashboard para evidenciar anomalias y datos faltantes como datos incoherentes.",
+      "highlights": [
+        "+5 MM tuplas por dia",
+        "Automatizacion",
+        "Sql Server",
+        "SSRS",
+        "Web, Console, Desktop App",
+        "ETL",
+        "SFTP",
+        "Net Core"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "Portal Logistica",
+      "isActive": false,
+      "description": "Plataforma que gestiona los procesos de aduanas propios de la compañia para las importaciones de mercancia, se conecta con servicios web y api REST de empresas aduaneras para obtener la gestión en tiempo real de la mercancia asi como conectar con ERP Propio y entregar datos al area Logistica y contable, ademas de mejorar los procesos manuales y operacionales del equipo Logistico",
+      "highlights": [
+        "Procesamiento archivos csv, excel, planos, json y xml",
+        "Sql Server",
+        "SSRS",
+        "Web",
+        "SOAP",
+        "REST Api",
+        "Automatizacion"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "Portal Terceros",
+      "isActive": true,
+      "description": "Portal WEB desarrollado en Asp .Net y C# que se conecta mediante servicios web a ERP SAP y Dynamics GP para presentar a los terceros propios de la empresa y entregar mediante correo electronico el reporte de Ingresos y retenciones indicado para cada uno de acuerdo a las opciones disponibles para cada Tercero que interactua desde el portal WEB",
+      "highlights": [
+        "SAP",
+        "Dinamycs GP",
+        "Sql Server",
+        "SSRS",
+        "Web",
+        "SOAP"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "Portal Colaborador",
+      "isActive": true,
+      "description": "Portal WEB desarrollado en Asp .Net, C# y tecnologias Web basadas en Javascript que se integra con servicios web, SSO Google, SAP y servicios de terceros para presentar información y documentos propios del Colaborador como certificados, boletas de pago, solicitar permisos, gestionar lugar de trabajo",
+      "highlights": [
+        "SAP",
+        "Sql Server",
+        "SSRS",
+        "Web",
+        "SOAP",
+        "Bootstrap",
+        "Jquery",
+        "Usuarios +5 Paises",
+        "Azure DevOps"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "Java App",
+      "isActive": false,
+      "description": "Aplicacion desarrollada en Java que realiza el orquestamiento de conexion/descarga a distintos servidores SFTP y FTP para la descarga y normalizacion de multiples archivos y posterior alojamiento en varios repositorios (FTP, Servidor de archivos y Google Drive GCP)",
+      "highlights": [
+        "Sql Server",
+        "FTP",
+        "Google Drive (GCP)",
+        "Java",
+        "Postgresql",
+        "MySql",
+        "XML"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "Logistica App",
+      "isActive": true,
+      "description": "Aplicación Web desarrollada en React, NodeJS y Api REST (NetCore) para la autogestion de visitas de comerciales y directivos a tienda, asi como la presentacion de dashboard analiticos de ventas y operaciones, responsive y con autenticacion SSO de Google",
+      "highlights": [
+        "Sql Server",
+        "JSON",
+        "GCP",
+        "NodeJS",
+        "React",
+        "Net CORE",
+        "DevOps",
+        "REST",
+        "Redis"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "Modulo Absentismos",
+      "isActive": true,
+      "description": "Creacion de nuevo modulo en aplicacion existente para la gestión sobre absentismos y control de horas extras, incorporacion de logica para controlar los horarios y descansos de personal que cubre turnos en una empresa, asi como la liquidación mensual y quincenal basados en marcaciones biometricos y de turnos",
+      "highlights": [
+        "Sql Server",
+        "Azure SQL",
+        "Cosmos",
+        ".Net",
+        "C#",
+        "DevOps",
+        "RRHH"
+      ]
+    },
+    {
+      "name": "Control Biometrico",
+      "isActive": false,
+      "description": "Desarrollo de aplicacion de consola y servicio de windows para la conexion con distintos dispositivos biometricos ZK que realizan la automatizacion de lectura/cargue de marcaciones del personal de la compañia, permitiendo integrarse con ERP SAP, Casino (tercero) y automatizar la descarga y limpieza de los dispositivos mediante protocolo TCP/IP",
+      "highlights": [
+        "Sql Server",
+        "Net CORE",
+        "Azure DevOps",
+        "Automatizacion",
+        "Redis",
+        "Biometria",
+        "SOAP"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "BCIntegration App",
+      "isActive": false,
+      "description": "Desarrollo de aplicacion en .Net CORE, Angular, Postgresql, Redis que conecta servicios y Api de Microsoft Bussines Central para las customizaciones propias con el ERP, buscaba centralizar la gestion a nivel del ERP del modulos compras y ventas desde una sola aplicacion de una forma mas amigable, simple y rapida desplegada con los servicios de AWS",
+      "highlights": [
+        "Postgresql",
+        "Net CORE",
+        "Azure DevOps",
+        "Automatizacion",
+        "Redis",
+        "NodeJS",
+        "Angular",
+        "Microsoft BC",
+        "AWS",
+        "CI-CD"
+      ],
+      "url": "https://tradealliancecorporation.com/"
+    },
+    {
+      "name": "HSG WorkPlace",
+      "isActive": false,
+      "description": "Aplicacion web desarrollada en .Net Core para la gestión de PQRs de empresa sector administradora de propiedad horizontal, contaba con flujo de atencion a casos reportados por usuarios (propietarios/residentes), contaba con cargue de archivos, casos, controlado por perfiles y roles especificos, area de noticias y comunicados",
+      "highlights": [
+        "Postgresql",
+        "Net CORE",
+        "GitHub",
+        "Automatizacion",
+        "Redis",
+        "Angular",
+        "AWS",
+        "Hosting Web",
+        "CI-CD"
+      ]
+    }
+  ]
+}
