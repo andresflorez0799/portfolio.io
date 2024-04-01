@@ -30,7 +30,7 @@ import { work } from "@cv";
                             <hr />
                             <footer>
                                 <p>{summary}</p>
-                                {highlights.map((highlight) => {
+                                {highlights.map((highlight: String) => {
                                     return <span class="no-print">{highlight}</span>;
                                 })}
                             </footer>
@@ -91,10 +91,11 @@ import { work } from "@cv";
     footer span {
         border-radius: 0px;
         background: #eee;
-        color: #2b2a2a;
-        font-size: 0.6rem;
-        font-weight: 300;
-        padding: 0.25rem 0.6rem;
+        color: #222222;
+        font-size: 0.53rem;
+        font-weight: 500;
+        padding: 0.15rem 0.3rem;
+        border-radius: 2.5px;
     }
 
     @media (width <= 700px) {

@@ -1,12 +1,20 @@
 ---
-import Section from "../Section.astro"
-
-import { basics } from "@cv"
-const { summary } = basics
+import Section from "../Section.astro";
+import Skills from "@/components/sections/Skills.astro";
+import { basics } from "@cv";
+const { summary } = basics;
 ---
 
 <Section title="Sobre mí">
-  <p>
-    {summary}
-  </p>
+    <p>
+        {summary}
+    </p>
+
+    <Skills />
 </Section>
+
+<style>
+  p {
+    text-align: inherit;
+  }
+</style>

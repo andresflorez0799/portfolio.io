@@ -18,7 +18,6 @@ import Kotlin from "@/icons/kotlin.astro";
 import Flutter from "@/icons/flutter.astro";
 import CSharp from "@/icons/csharp.astro";
 import SQLServer from "@/icons/sqlserver.astro";
-
 import DotNet from "@/icons/dotnet.astro";
 import JQuery from "@/icons/jquery.astro";
 import SonarCloud from "@/icons/sonarcloud.astro";
@@ -63,11 +62,12 @@ const SKILLS_ICONS: Record<string, any> = {
     Mongo,
     CICD,
     Java,
-    Postgresql
+    Postgresql,
 };
 ---
 
-<Section title="Skills">
+<Section>
+    <br />
     <ul>
         {
             skills.map(({ name }) => {
@@ -87,8 +87,9 @@ const SKILLS_ICONS: Record<string, any> = {
 <style>
     ul {
         display: inline-flex;
-        gap: 8px;
+        gap: 4px;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     li {
