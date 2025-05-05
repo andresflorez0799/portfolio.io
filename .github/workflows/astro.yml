@@ -1,57 +1,68 @@
-# .github/workflows/astro.yml
 name: Deploy Astro site to GitHub Pages
 
 on:
+  # Ejecuta en push a la rama principal
   push:
-    branches:
-      - main  # o la rama que uses como principal
+    branches: ['main']
+  # Permite ejecutar este workflow manualmente desde la pestaña Actions
+  workflow_dispatch:
 
+# Establece los permisos necesarios para desplegar en GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Evita que se ejecuten despliegues concurrentes
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
+      - name: Checkout
         uses: actions/checkout@v4
-
+      
+      # Configurar PNPM
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
         with:
           version: 6.0.2
-
+      
+      # Configurar Node.js
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 18
           cache: 'pnpm'
-
+      
+      # Configurar GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      
+      # Instalar dependencias
       - name: Install dependencies
-        run: pnpm install
-
-      - name: Build Astro site
-        run: pnpm run build
-
+        run: pnpm install --frozen-lockfile
+      
+      # Construir el sitio
+      - name: Build with Astro
+        run: pnpm build
+      
+      # Subir artefacto para el despliegue
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
-          path: ./dist
+          path: './dist'
 
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+    runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v2
