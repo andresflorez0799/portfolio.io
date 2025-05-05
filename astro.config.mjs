@@ -1,8 +1,8 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
+import staticAdapter from "@astrojs/adapter-static";
 
-// https://astro.build/config
 export default defineConfig({
-    site: "https://andresflorez0799.github.io",
-    base: "portfolio.io"
+  site: "https://andresflorez0799.github.io/portfolio.io",
+  base: "/portfolio.io/",
+  adapter: staticAdapter(),
 });
-
