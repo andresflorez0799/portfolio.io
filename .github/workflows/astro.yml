@@ -42,9 +42,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       
-      # Instalar dependencias
+      # Instalar dependencias (sin requerir lockfile)
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
       
       # Construir el sitio
       - name: Build with Astro
