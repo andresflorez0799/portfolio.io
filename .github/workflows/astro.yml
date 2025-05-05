@@ -1,28 +1,61 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy Astro site to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Ejecuta en push a la rama principal
   push:
-    branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: ['main']
+  # Permite ejecutar este workflow manualmente desde la pestaña Actions
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Establece los permisos necesarios para desplegar en GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Evita que se ejecuten despliegues concurrentes
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: 'pages'
+  cancel-in-progress: true
 
 jobs:
-  # Single deploy job since we're just deploying
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      # Configurar PNPM
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 6.0.2
+      
+      # Configurar Node.js
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          # Eliminar la configuración de caché que causa problemas
+      
+      # Configurar GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      
+      # Instalar dependencias (sin requerir lockfile)
+      - name: Install dependencies
+        run: pnpm install
+      
+      # Construir el sitio
+      - name: Build with Astro
+        run: pnpm build
+      
+      # Subir artefacto para el despliegue
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
   deploy:
     environment:
       name: github-pages
