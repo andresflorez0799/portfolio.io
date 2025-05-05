@@ -1,26 +1,29 @@
-name: Deploy Astro site to GitHub Pages
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
 
 on:
-  # Ejecuta en push a la rama principal
+  # Runs on pushes targeting the default branch
   push:
-    branches: ['main']
-  # Permite ejecutar este workflow manualmente desde la pestaña Actions
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Establece los permisos necesarios para desplegar en GitHub Pages
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Evita que se ejecuten despliegues concurrentes
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: 'pages'
-  cancel-in-progress: true
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  # Job único para construir y desplegar (simplificado)
-  build-and-deploy:
+  # Single deploy job since we're just deploying
+  deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -28,38 +31,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
-      # Configurar PNPM
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v2
-        with:
-          version: 6.0.2
-      
-      # Configurar Node.js
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      
-      # Configurar GitHub Pages
       - name: Setup Pages
-        uses: actions/configure-pages@v3
-      
-      # Instalar dependencias
-      - name: Install dependencies
-        run: pnpm install
-      
-      # Construir el sitio
-      - name: Build with Astro
-        run: pnpm build
-      
-      # Subir artefacto para el despliegue
-      - name: Upload Pages artifact
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
-      
-      # Desplegar a GitHub Pages
+          # Upload entire repository
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
