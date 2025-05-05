@@ -6,7 +6,7 @@ import Education from "@/components/sections/Education.astro";
 import Experience from "@/components/sections/Experience.astro";
 import Hero from "@/components/sections/Hero.astro";
 import Projects from "@/components/sections/Projects.astro";
-import Skills from "@/components/sections/Skills.astro";
+import ModalInformation from "@/components/common/modal.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 import ThemeIcon from "@/components/ThemeIcon.astro";
 
@@ -17,6 +17,7 @@ const { name, label } = basics;
 <Layout title={`Portafolio de ${name} - ${label}`}>
     <main>
         <ThemeIcon />
+        <ModalInformation />
         <Hero />
         <About />
         <Experience />
@@ -28,6 +29,15 @@ const { name, label } = basics;
 </Layout>
 
 <style>
+    body {
+        overflow: scroll; /* o 'auto' */
+        scrollbar-width: none; /* Firefox */
+    }
+
+    body::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+    }
+
     main {
         padding: 4rem;
         margin: auto;

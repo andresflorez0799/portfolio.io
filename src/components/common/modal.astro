@@ -1,0 +1,161 @@
+<div class="modal-overlay" id="modalOverlay">
+	<div class="modal-container">
+		<div class="modal-header">
+			<h3 id="modalTitle">Página Embebida</h3>
+			<button class="modal-close" id="modalClose">&times;</button>
+		</div>
+		<div class="modal-content">
+			<iframe id="modalFrame" src="" title="Contenido embebido"></iframe>
+		</div>
+	</div>
+</div>
+
+<script>
+	// Funcionalidad del modal
+	document.addEventListener("DOMContentLoaded", () => {
+		const modalLinks = document.querySelectorAll(".modal-link");
+		const modalOverlay = document.getElementById("modalOverlay");
+		const modalClose = document.getElementById("modalClose");
+		const modalFrame = document.getElementById("modalFrame") as HTMLIFrameElement;
+		const modalTitle = document.getElementById("modalTitle");
+
+		// Función para abrir el modal
+		function openModal(url:any, title:any) {
+            if (modalFrame && modalTitle && modalOverlay){
+                modalFrame.src = url;
+			    modalTitle.textContent = title || "Página Embebida";
+			    modalOverlay.style.display = "flex";
+            }			
+			document.body.style.overflow = "hidden"; // Prevenir scroll en el fondo
+		}
+
+		// Función para cerrar el modal
+		function closeModal() {
+            if (modalFrame && modalTitle && modalOverlay){
+                modalOverlay.style.display = "none";
+                modalFrame.src = "";
+            }			
+			document.body.style.overflow = "auto"; // Restaurar scroll
+		}
+
+		// Agregar eventos a los links
+		modalLinks.forEach((link) => {
+			link.addEventListener("click", (e) => {
+				e.preventDefault();
+				const url = link.getAttribute("href");
+				const title = link.textContent;
+				openModal(url, title);
+			});
+		});
+
+		// Evento para cerrar el modal
+        if(modalClose) modalClose.addEventListener("click", closeModal);
+
+		// Cerrar modal al hacer clic fuera del contenido
+        if(modalOverlay) 
+            modalOverlay.addEventListener("click", (e) => {
+                if (e.target === modalOverlay) {
+                    closeModal();
+                }
+            });
+
+		// Cerrar modal con la tecla ESC
+		document.addEventListener("keydown", (e) => {
+			if (e.key === "Escape" && modalOverlay && modalOverlay.style.display === "flex") {
+				closeModal();
+			}
+		});
+	});
+</script>
+
+<style>
+    body {
+        overflow: scroll; /* o 'auto' */
+        scrollbar-width: none; /* Firefox */
+    }
+
+    body::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+    }
+
+	.container {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	/* Estilos para el modal */
+	.modal-overlay {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: 1000;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.modal-container {
+		background-color: white;
+		width: 90%;
+		max-width: 900px;
+		max-height: 90vh;
+		border-radius: 8px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		position: relative;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.modal-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 20px;
+		background-color: #f5f5f5;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.modal-close {
+		cursor: pointer;
+		font-size: 24px;
+		background: none;
+		border: none;
+		color: #666;
+	}
+
+	.modal-content {
+		flex-grow: 1;
+		overflow: auto;
+		position: relative;
+	}
+
+	iframe {
+		width: 100%;
+		height: 100%;
+		border: none;
+		min-height: 70vh;
+	}
+
+	.links {
+		margin-top: 30px;
+	}
+
+	.btn {
+		display: inline-block;
+		padding: 10px 15px;
+		background-color: #4a6cf7;
+		color: white;
+		text-decoration: none;
+		border-radius: 4px;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+
+	.btn:hover {
+		background-color: #3a5cd7;
+	}
+</style>
