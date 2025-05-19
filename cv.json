@@ -39,7 +39,7 @@
       "url": "https://belltech.la/",
       "startDate": "2022-12-01",
       "endDate": null,
-      "summary": "Desarrollo de aplicaciones en .Net Framework, HTML, CSS y JavaScript para cliente del sector Bancario. Gestión de tareas, HU, repositorios y gestión de ciclo de proyectos en Azure DevOps. Atención a cliente interno y externo, pruebas unitarias y soporte de segundo nivel, análisis y revision de código con apoyo en Sonar Cloud, entre otras actividades propias del cargo.",
+      "summary": "Desarrollo de aplicaciones en .Net Framework, HTML, CSS y JavaScript para cliente del sector Bancario. Gestión de tareas, HU, repositorios y gestión de ciclo de vida de proyectos en Azure DevOps. Atención a cliente interno y externo, pruebas unitarias y soporte de segundo nivel, análisis y revision de código con apoyo en Sonar Cloud, entre otras actividades propias del cargo.",
       "highlights": [
         "KAL",
         "K3A",
@@ -70,7 +70,7 @@
       "url": "https://www.mectronics.co/",
       "startDate": "2022-05-01",
       "endDate": "2022-11-30",
-      "summary": "Desarrollo de nuevas funcionalidades en aplicaciones .Net, Servicios SOAP (WCF), apoyo técnico en implementaciones, documentación, pruebas, gestión de tareas y repositorios en Microsoft TFS, bases de datos en SQL Server, y servicios en la nube como Cosmos DB, Azure SQL, Azure Data Factory. Mejora continua en código existente y query SQL (funciones, store procedures y vistas), apoyo y mentoria al equipo entre otras funciones propias del cargo.",
+      "summary": "Desarrollo de nuevas funcionalidades en aplicaciones .Net, Servicios SOAP (WCF), apoyo técnico en implementaciones, documentación, pruebas, gestión de tareas y repositorios en Microsoft TFS, bases de datos en SQL Server, y servicios en la nube como Cosmos DB, Azure SQL, Azure Data Factory. Mejora continua en código existente y query SQL (funciones, store procedures y vistas), apoyo y mentoría al equipo entre otras funciones propias del cargo.",
       "highlights": [
         "HTML5",
         "JavaScript",
@@ -100,7 +100,7 @@
       "url": "https://tradealliancecorporation.com/",
       "startDate": "2020-09-01",
       "endDate": "2022-04-30",
-      "summary": "Liderazgo de equipo desarrollo, planificación y gestión de proyectos de software, seguimiento de actividades y entrega de resultados a Stakeholders. Configuración, mantenimiento y control de los repositorios de software, apoyo y mentoria al equipo y soporte de tercer nivel. Procesos de reclutamiento (diseño, calificación y recibir entrevistas técnicas)",
+      "summary": "Liderazgo de equipo desarrollo, planificación y gestión de proyectos de software, seguimiento de actividades y entrega de resultados a Stakeholders. Configuración, mantenimiento y control de los repositorios de software, apoyo y mentoría al equipo y soporte de tercer nivel. Procesos de reclutamiento (diseño, calificación y recibir entrevistas técnicas)",
       "highlights": [
         "Liderazgo",
         "SCRUM",
@@ -198,7 +198,7 @@
       "url": "https://tradealliancecorporation.com/",
       "startDate": "2014-05-01",
       "endDate": "2015-05-31",
-      "summary": "Desarrollo de funcionalidades en aplicativos existentes. Soporte de primer nivel en aplicativos In-house y de terceros implementados (Talents, Dynamics CRM, ReqLogic, entre otras), diseño, creación y publicación de reportes en Sql Server Reporting Services, agregar modificar y dar soporte a funcionalidades sobre sistemas de integración de datos ETL (Sql Server Integration Services), creación de scripts sql para extracción de data y análisis. Atención y soporte especializado al usuario sobre herramientas ofimática y de aplicativos propios, preparación y presentación de indicadores de gestión realizados en cada sprint. Adicional en este periodo (May/14-Oct/14) Administración y gestión de usuarios en sistema SAP, administración, creación y configuración de los permisos, roles y perfiles en el sistema, ademas de colaborar en la gestión sobre los cubos en SAP BW.",
+      "summary": "Desarrollo de funcionalidades en aplicativos existentes. Soporte de segundo nivel en aplicativos In-house y de terceros implementados (Talents, Dynamics CRM, ReqLogic, entre otras), diseño, creación y publicación de reportes en Sql Server Reporting Services, agregar modificar y dar soporte a funcionalidades sobre sistemas de integración de datos ETL (Sql Server Integration Services), creación de scripts sql para extracción de data y análisis. Atención y soporte especializado al usuario sobre herramientas ofimática y de aplicativos propios, preparación y presentación de indicadores de gestión realizados en cada sprint. Adicional en este periodo (May/14-Oct/14) Administración y gestión de usuarios en sistema SAP, administración, creación y configuración de los permisos, roles y perfiles en el sistema, ademas de colaborar en la gestión sobre los cubos en SAP BW.",
       "highlights": [
         "Análisis",
         "HTML5",
@@ -223,7 +223,7 @@
       "url": "https://tradealliancecorporation.com/",
       "startDate": "2012-05-01",
       "endDate": "2014-05-31",
-      "summary": "Análisis de datos de ventas, compras, operaciones y posterior procesamiento en ERP Microsoft Dynamics GP, control y análisis de inventarios, diseño creación y presentación de reportes y KPIs, Apoyo en la gestión y administración de bases de datos. Después del primer año y con mentoria participe en desarrollos de software para automatización de procesos del area mediante programas de escritorio, consola y ETLs asi como optimización de procesos redundantes y apoyo en el mantenimiento de Data Ware House de la compañía",
+      "summary": "Análisis de datos de ventas, compras, operaciones y posterior procesamiento en ERP Microsoft Dynamics GP, control y análisis de inventarios, diseño creación y presentación de reportes y KPIs, Apoyo en la gestión y administración de bases de datos. Después del primer año y con mentoría participe en desarrollos de software para automatización de procesos del area mediante programas de escritorio, consola y ETLs asi como optimización de procesos redundantes y apoyo en el mantenimiento de Data Ware House de la compañía",
       "highlights": [
         "Análisis",
         "HTML5",
