@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Mairon Andres Florez",
-    "label": "Full Stack Developer con más de 10 años de experiencia",
-    "image": "https://media.licdn.com/dms/image/v2/C5603AQGwvmyVXXT5qw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1559312331247?e=1752105600&v=beta&t=OTgyUkisz-OowXZj0ZbtpKj-W3tTqwfsNDUjx8lc1_k",
+    "label": "Líder Técnico de Servicios Profesionales | Arquitectura de Soluciones | Desarrollo de Software | .NET | Node.js | React | Gestión de Proyectos | Transformación Digital",
+    "image": "https://avatars.githubusercontent.com/u/52682774?v=4",
     "email": "andresflorez0799@gmail.com",
     "phone": "+57 3058128826",
     "url": "https://www.linkedin.com/in/mairon-andr%C3%A9s-florez-alvarez-340124137/",
-    "summary": "Desarrollador de software y apasionado por la tecnología. He participado en la planificación, desarrollo, creación e implementación de soluciones de tecnología como servicios Web, sitios web personalizados, aplicaciones de escritorio, integraciones con SAP, Google, Dynamics. Como independiente he participado en la creación de sistemas y automatizaciones para empresas, consultorías en desarrollo de software, proveedor de servicios.",
+    "summary": "Desarrollador de software y apasionado por la tecnología. He participado en la planificación, desarrollo, creación e implementación de soluciones de tecnología para empresas y negocios del sector Retail, Banca, Comercial y de Servicios con implementaciones de servicios Web, sitios web personalizados, aplicaciones de on-premise, integraciones SAP, Google, Dynamics, entre otros. Como independiente he participado en la creación de sistemas y automatizaciones para empresas, consultorías en desarrollo de software, proveedor de servicios.",
     "location": {
       "address": "",
       "postalCode": "250001",
@@ -35,11 +35,11 @@
   "work": [
     {
       "name": "Belltech",
-      "position": "Consultor SSPP",
+      "position": "Lider Ténico Servicios Profesionales",
       "url": "https://belltech.la/",
       "startDate": "2022-12-01",
       "endDate": null,
-      "summary": "Desarrollo de aplicaciones en .Net Framework, HTML, CSS y JavaScript para cliente del sector Bancario. Gestión de tareas, HU, repositorios y gestión de ciclo de vida de proyectos en Azure DevOps. Atención a cliente interno y externo, pruebas unitarias y soporte de segundo nivel, análisis y revision de código con apoyo en Sonar Cloud, entre otras actividades propias del cargo.",
+      "summary": "Líder Técnico con función de dirección y organción técnica de proyectos de software, gestión de servicios profesionales y liderazgo de equipos de desarrollo. Especialista en la definición de estrategias tecnológicas, arquitectura de soluciones, integración de sistemas y optimización de procesos. Orientado a la entrega exitosa de proyectos, fortalecimiento de equipos de alto desempeño y alineación entre objetivos de negocio y capacidades tecnológicas.",
       "highlights": [
         "KAL",
         "K3A",
@@ -242,21 +242,6 @@
         "Dynamics GP",
         "Inventarios"
       ]
-    },
-    {
-      "name": "Carrefour",
-      "position": "Analista de Inventarios",
-      "startDate": "2011-02-01",
-      "endDate": "2012-04-30",
-      "summary": "Responsable de análisis de inventarios, atención y gestión con proveedores",
-      "highlights": [
-        "Análisis",
-        "Inventarios",
-        "Planning",
-        "Proveedores",
-        "Gestión merma",
-        "Autogestión"
-      ]
     }
   ],
   "volunteer": [
@@ -276,10 +261,22 @@
     {
       "institution": "CUN",
       "url": "https://cun.edu.co/",
+      "area": "Especialista en Transformación Digital",
+      "studyType": "Especialización",
+      "startDate": "2025-05-01",
+      "endDate": "2026-06-01",
+      "score": "4.0",
+      "courses": [
+        "Espcializaciín Ingenieria de Sistemas"
+      ]
+    },
+    {
+      "institution": "CUN",
+      "url": "https://cun.edu.co/",
       "area": "Profesional en Ingeniería de Sistemas",
       "studyType": "Profesional",
-      "startDate": "2013-05-01",
-      "endDate": null,
+      "startDate": "2022-01-01",
+      "endDate": "2024-03-21",
       "score": "4.0",
       "courses": [
         "Ingeniero de Sistemas"
