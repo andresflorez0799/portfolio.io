@@ -8,9 +8,12 @@ import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
+import { projects, skills, work } from "@cv";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
+const currentRole = work.find(({ endDate }) => endDate == null);
+const yearsExperience = Math.max(1, new Date().getFullYear() - new Date(work.at(-1)?.startDate ?? work[0]?.startDate ?? Date.now()).getFullYear());
 
 const SOCIAL_ICONS: SocialIcon = {
     GitHub,
@@ -23,19 +26,24 @@ const linkedUrl = linkedInfo?.url;
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
-<Section>
+<Section id="inicio">
     <div class="container">
         <div class="info">
+            <p class="eyebrow">Arquitectura, liderazgo técnico y software a medida</p>
             <h1>{name}</h1>
             <h2>{label}</h2>
-            <span>
+            <span class="location">
                 <WorldMap />
                 {city}, {region}
             </span>
+            <div class="actions no-print">
+                {email && <a class="primary-action" href={`mailto:${email}`}>Conversemos</a>}
+                <a class="secondary-action" href="#proyectos">Ver proyectos</a>
+            </div>
             <footer class="print">
                 {printInfo}
             </footer>
-            <footer class="no-print">
+            <footer class="social-links no-print">
                 {
                     email && (
                         <a href={`mailto:${email}`} title={`Enviar un correo electrónico a ${name} al correo ${email}`} target="_blank" rel="noopener noreferrer">
@@ -63,84 +71,242 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
                 }
             </footer>
         </div>
-        <figure>
+        <figure aria-label={`Foto de perfil de ${name}`}>
             <img src={image} alt={name} />
+            <figcaption>
+                {currentRole?.position ?? "Líder técnico"}
+            </figcaption>
         </figure>
     </div>
+    <ul class="metrics no-print" aria-label="Resumen profesional">
+        <li>
+            <strong>{yearsExperience}+</strong>
+            <span>años de experiencia</span>
+        </li>
+        <li>
+            <strong>{projects.length}</strong>
+            <span>proyectos destacados</span>
+        </li>
+        <li>
+            <strong>{skills.length}</strong>
+            <span>tecnologías clave</span>
+        </li>
+    </ul>
 </Section>
 
 <style>
     .container {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        gap: 1rem;
+        gap: 2rem;
+        overflow: hidden;
+        padding: clamp(1.2rem, 3vw, 2.25rem);
+        position: relative;
+    }
+
+    .container::after {
+        background: linear-gradient(90deg, var(--accent), var(--rose), var(--amber));
+        bottom: 0;
+        content: "";
+        height: 4px;
+        left: 0;
+        position: absolute;
+        width: 100%;
     }
 
     .info {
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
-        padding-right: 32px;
+        gap: 0.8rem;
+        max-width: 680px;
+        padding-right: 16px;
+    }
+
+    .eyebrow {
+        color: var(--accent);
+        font-family: var(--mono);
+        font-size: 0.78rem;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: clamp(2.4rem, 1.55rem + 4vw, 5rem);
+        letter-spacing: 0;
+        line-height: 0.95;
     }
 
     h2 {
-        color: #444;
+        color: var(--muted);
         font-weight: 500;
-        font-size: 1.1rem;
+        font-size: clamp(1rem, 0.92rem + 0.6vw, 1.32rem);
+        line-height: 1.55;
         text-wrap: balance;
+    }
+
+    figure {
+        flex: 0 0 auto;
+        position: relative;
     }
 
     img {
         aspect-ratio: 1 / 1;
+        border: 6px solid rgba(255, 255, 255, 0.8);
+        box-shadow: 0 26px 50px rgba(15, 23, 42, 0.2);
         object-fit: cover;
-        width: 180px;
-        border-radius: 50%;
+        width: clamp(168px, 22vw, 240px);
+        border-radius: var(--radius);
+        transform: rotate(1.5deg);
+        transition:
+            transform 240ms ease,
+            box-shadow 240ms ease;
     }
 
-    span {
-        color: #666;
+    figure:hover img {
+        box-shadow: 0 30px 70px rgba(15, 23, 42, 0.26);
+        transform: rotate(0deg) translateY(-4px);
+    }
+
+    figcaption {
+        backdrop-filter: blur(14px);
+        background: rgba(17, 24, 39, 0.78);
+        border-radius: var(--radius);
+        bottom: 0.9rem;
+        color: #fff;
+        font-size: 0.75rem;
+        font-weight: 700;
+        left: 50%;
+        max-width: calc(100% - 1.4rem);
+        padding: 0.42rem 0.62rem;
+        position: absolute;
+        text-align: center;
+        transform: translateX(-50%);
+        width: max-content;
+    }
+
+    .location {
+        color: var(--muted);
         display: flex;
         align-items: center;
-        gap: 0.25rem;
-        font-size: 0.85rem;
-        letter-spacing: -0.05rem;
+        gap: 0.45rem;
+        font-family: var(--mono);
+        font-size: 0.86rem;
+        letter-spacing: 0;
+    }
+
+    .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+        margin-top: 0.3rem;
+    }
+
+    .actions a {
+        align-items: center;
+        border-radius: 999px;
+        display: inline-flex;
+        font-size: 0.9rem;
+        font-weight: 800;
+        min-height: 2.7rem;
+        padding: 0.78rem 1rem;
+        transition:
+            transform 180ms ease,
+            box-shadow 180ms ease,
+            background 180ms ease;
+    }
+
+    .primary-action {
+        background: var(--text);
+        color: var(--bg-soft);
+        box-shadow: 0 14px 34px rgba(15, 23, 42, 0.18);
+    }
+
+    .secondary-action {
+        background: var(--accent-soft);
+        color: var(--accent);
+    }
+
+    .actions a:hover {
+        transform: translateY(-2px);
     }
 
     footer {
-        color: #555;
+        color: var(--muted);
         font-size: 0.65rem;
         display: flex;
-        gap: 4px;
-        margin-top: 8px;
+        gap: 8px;
+        margin-top: 4px;
     }
 
     footer a {
-        color: #777;
+        color: var(--muted);
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid #eee;
-        padding: 4px;
-        height: 32px;
-        width: 32px;
-        border-radius: 6px;
-        transition: all 0.3s ease;
+        background: var(--surface-strong);
+        border: 1px solid var(--border);
+        padding: 6px;
+        height: 40px;
+        width: 40px;
+        border-radius: 999px;
+        transition:
+            all 180ms ease;
     }
 
     footer a:hover {
-        background: #eee;
-        border: 1px solid #ddd;
+        background: var(--accent-soft);
+        border-color: rgba(20, 184, 166, 0.3);
+        color: var(--accent);
+        transform: translateY(-2px);
+    }
+
+    .metrics {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 1rem;
+    }
+
+    .metrics li {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 1rem;
+        transition:
+            transform 180ms ease,
+            border-color 180ms ease;
+    }
+
+    .metrics li:hover {
+        border-color: rgba(20, 184, 166, 0.34);
+        transform: translateY(-3px);
+    }
+
+    .metrics strong {
+        color: var(--text);
+        display: block;
+        font-size: 1.8rem;
+        line-height: 1;
+    }
+
+    .metrics span {
+        color: var(--muted);
+        display: block;
+        font-size: 0.82rem;
+        margin-top: 0.35rem;
     }
 
     @media (width <= 700px) {
         .container {
             flex-direction: column-reverse;
+            gap: 1.2rem;
         }
 
         .info {
@@ -162,6 +328,41 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 
         figure {
             margin: 0 auto;
+        }
+
+        .actions {
+            justify-content: center;
+        }
+
+        .metrics {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media print {
+        .container {
+            border: 0;
+            box-shadow: none;
+            padding: 0;
+        }
+
+        .container::after,
+        figcaption {
+            display: none;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        img {
+            border: 0;
+            box-shadow: none;
+            width: 120px;
         }
     }
 </style>

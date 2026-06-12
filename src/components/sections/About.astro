@@ -5,8 +5,8 @@ import { basics } from "@cv";
 const { summary } = basics;
 ---
 
-<Section title="Sobre mí">
-    <p>
+<Section id="sobre-mi" title="Sobre mí">
+    <p class="summary">
         {summary}
     </p>
 
@@ -14,7 +14,36 @@ const { summary } = basics;
 </Section>
 
 <style>
-  p {
-    text-align: inherit;
-  }
+    .summary {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        box-shadow: 0 18px 46px rgba(15, 23, 42, 0.06);
+        font-size: clamp(1rem, 0.95rem + 0.3vw, 1.1rem);
+        padding: clamp(1rem, 2vw, 1.35rem);
+        position: relative;
+    }
+
+    .summary::before {
+        background: var(--accent);
+        border-radius: 999px;
+        content: "";
+        height: calc(100% - 2rem);
+        left: 0;
+        position: absolute;
+        top: 1rem;
+        width: 4px;
+    }
+
+    @media print {
+        .summary {
+            border: 0;
+            box-shadow: none;
+            padding: 0;
+        }
+
+        .summary::before {
+            display: none;
+        }
+    }
 </style>

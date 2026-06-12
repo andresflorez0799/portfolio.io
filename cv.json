@@ -35,7 +35,7 @@
   "work": [
     {
       "name": "Belltech",
-      "position": "Lider Ténico Servicios Profesionales",
+      "position": "Lider Ténico",
       "url": "https://belltech.la/",
       "startDate": "2022-12-01",
       "endDate": null,
@@ -317,6 +317,19 @@
   ],
   "certificates": [
     {
+      "issuer": "Certiprof",
+      "url": "https://certiprof.com/es",
+      "courses": [
+        {
+          "name": "Scrum Master Professional Certificate - SMPC®",
+          "date": "2025-05-04",
+          "issuer": "Certiprof",
+          "url": "https://www.credly.com/badges/5edf9018-8de9-49d3-baf0-8df0ed1039b5/linked_in?t=svr7r9",
+          "ID": "5edf9018-8de9-49d3-baf0-8df0ed1039b5"
+        }
+      ]
+    },
+    {
       "issuer": "Platzi",
       "url": "https://platzi.com/p/AndrewJS",
       "courses": [
@@ -501,20 +514,7 @@
           "ID": "UC-ATWKK4MT"
         }
       ]
-    },
-    {
-      "issuer": "Certiprof",
-      "url": "https://certiprof.com/es",
-      "courses": [
-        {
-          "name": "Scrum Master Professional Certificate - SMPC®",
-          "date": "2025-05-04",
-          "issuer": "Certiprof",
-          "url": "https://www.credly.com/badges/5edf9018-8de9-49d3-baf0-8df0ed1039b5/linked_in?t=svr7r9",
-          "ID": "5edf9018-8de9-49d3-baf0-8df0ed1039b5"
-        }
-      ]
-    }
+    }    
   ],
   "publications": [
     {

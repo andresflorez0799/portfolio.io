@@ -1,41 +1,68 @@
 ---
 // se ejecuta en el servidor o en build time <----
-const { title, subtitle } = Astro.props;
+const { id, title, subtitle } = Astro.props;
 ---
 
-<section>
+<section id={id}>
     {title && <h2>{title}</h2>}
     {subtitle && <h3>{subtitle}</h3>}
     <slot />
 </section>
 
-<script>
-    // se ejecuta en el cliente <----
-</script>
-
 <style>
     section {
-        max-width: 700px;
-        margin: 0 auto 24px;
+        margin: 0 auto 56px;
+        max-width: 960px;
+        scroll-margin-top: 7rem;
     }
 
     h2 {
-        margin-bottom: 8px;
+        align-items: center;
+        color: var(--text);
+        display: flex;
+        gap: 0.75rem;
+        margin-bottom: 18px;
         font-weight: 700;
-        line-height: 1.5;
-        font-size: 1.5rem;
+        line-height: 1.2;
+        font-size: clamp(1.45rem, 1.1rem + 1.2vw, 2rem);
+    }
+
+    h2::before {
+        background: linear-gradient(135deg, var(--accent), var(--rose));
+        border-radius: 999px;
+        content: "";
+        height: 0.72rem;
+        width: 0.72rem;
     }
 
     h3 {
-        margin-bottom: 8px;
+        color: var(--text);
+        margin-bottom: 14px;
         font-weight: 640;
-        line-height: 1.5;
+        line-height: 1.3;
         font-size: 1.2rem;
     }
 
     @media (width <= 700px) {
         section {
-            margin-bottom: 38px;
+            margin-bottom: 46px;
+        }
+    }
+
+    @media print {
+        section {
+            margin-bottom: 18px;
+            max-width: 100%;
+            scroll-margin-top: 0;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+        }
+
+        h2::before {
+            display: none;
         }
     }
 </style>

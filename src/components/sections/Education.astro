@@ -4,7 +4,7 @@ import Section from "../Section.astro";
 import { education, certificates } from "@cv";
 ---
 
-<Section title="Educación">
+<Section id="educacion" title="Educación">
     <ul>
         {
             education.map(({ institution, startDate, endDate, area, url }) => {
@@ -82,51 +82,90 @@ import { education, certificates } from "@cv";
     ul {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 0.75rem;
     }
 
     li > h3 {
+        color: var(--accent);
         font-weight: 600;
         font-size: 1.2rem;
-        margin: 16px auto 16px;
-        text-decoration: underline;
+        margin: 1.2rem auto 0.7rem;
     }
 
     article h3 {
-        font-weight: 500;
+        font-weight: 800;
+    }
+
+    article {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 0.9rem 1rem;
+        transition:
+            background 180ms ease,
+            border-color 180ms ease,
+            transform 180ms ease;
+    }
+
+    article:hover {
+        background: var(--surface-strong);
+        border-color: rgba(20, 184, 166, 0.28);
+        transform: translateX(4px);
     }
 
     header {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        margin-bottom: 4px;
+        gap: 1rem;
+        margin-bottom: 0.15rem;
     }
 
-    header h3 {
-        /*text-decoration: underline;*/
+    a:hover {
+        color: var(--accent);
     }
 
     time {
+        background: var(--accent-soft);
+        border-radius: 999px;
+        color: var(--accent);
         font-size: 0.85rem;
+        font-weight: 800;
         min-width: 102px;
+        padding: 0.32rem 0.55rem;
+        text-align: center;
     }
 
     p > a:hover {
         cursor: pointer;
-        color: #111;
-        font-weight: 550;
+        color: var(--accent);
     }
 
     footer > p > span {
         font-size: 0.65rem;
         font-weight: 500;
-        /*text-decoration: underline;*/
     }
 
     @media (width <= 700px) {
+        header {
+            flex-direction: column;
+        }
+
         time {
-            text-align: right;
+            text-align: left;
+        }
+    }
+
+    @media print {
+        article {
+            border: 0;
+            padding: 0;
+        }
+
+        time {
+            background: transparent;
+            color: #444;
+            padding: 0;
         }
     }
 </style>

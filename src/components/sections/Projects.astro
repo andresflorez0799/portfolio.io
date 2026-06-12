@@ -5,7 +5,7 @@ import Section from "../Section.astro";
 import { projects } from "@cv";
 ---
 
-<Section title="Proyectos">
+<Section id="proyectos" title="Proyectos">
     <ul>
         {
             projects.map(({ url, description, highlights, name, isActive, github }) => {
@@ -17,7 +17,7 @@ import { projects } from "@cv";
                                     <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
                                         {name}
                                     </a>
-                                    {isActive && <span>•</span>}
+                                    {isActive && <span class="status">Activo</span>}
                                     {github && (
                                         <a class="github-code-link" href={github} target="_blank" title={`Ver código fuente del proyecto ${name}`}>
                                             <GitHub />
@@ -38,22 +38,47 @@ import { projects } from "@cv";
         }
     </ul>
 </Section>
-<p>Otros mas...</p>
 <style>
     ul {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
         gap: 1rem;
     }
 
     article {
-        border-radius: 8px;
-        border: 1px solid #f2f2f2;
-        gap: 16px;
+        background:
+            linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent),
+            var(--surface);
+        border-radius: var(--radius);
+        border: 1px solid var(--border);
+        box-shadow: 0 18px 52px rgba(15, 23, 42, 0.06);
+        gap: 1rem;
         display: flex;
         flex-direction: column;
-        padding: 16px;
+        overflow: hidden;
+        padding: 1rem;
+        position: relative;
         height: 100%;
+        transition:
+            border-color 180ms ease,
+            transform 180ms ease,
+            box-shadow 180ms ease;
+    }
+
+    article::before {
+        background: linear-gradient(90deg, var(--accent), var(--rose));
+        content: "";
+        height: 3px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    article:hover {
+        border-color: rgba(20, 184, 166, 0.32);
+        box-shadow: var(--shadow);
+        transform: translateY(-4px);
     }
 
     article header {
@@ -61,51 +86,69 @@ import { projects } from "@cv";
     }
 
     article h3 {
-        margin-bottom: 6px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+        margin-bottom: 0.55rem;
         font-size: 1.1rem;
-        text-decoration: underline;
+        line-height: 1.25;
     }
 
     article a:hover {
-        text-decoration: underline;
+        color: var(--accent);
     }
 
     article p {
-        font-size: 0.75rem;
-        line-height: 1.2rem;
-        margin-bottom: 4px;
+        font-size: 0.88rem;
+        line-height: 1.55;
+        margin-bottom: 0.25rem;
     }
 
-    article h3 span {
-        color: rgb(0, 188, 47);
-        animation-name: flicker;
-        animation-duration: 3s;
-        animation-timing-function: ease-in;
-        animation-iteration-count: infinite;
+    .status {
+        align-items: center;
+        background: rgba(34, 197, 94, 0.12);
+        border: 1px solid rgba(34, 197, 94, 0.24);
+        border-radius: 999px;
+        color: #16a34a;
+        display: inline-flex;
+        font-family: var(--mono);
+        font-size: 0.62rem;
+        font-weight: 800;
+        gap: 0.28rem;
+        padding: 0.18rem 0.45rem;
+        text-decoration: none;
+    }
+
+    .status::before {
+        background: currentColor;
+        border-radius: 999px;
+        content: "";
+        height: 0.42rem;
+        width: 0.42rem;
     }
 
     footer {
         display: flex;
         flex-wrap: wrap;
-        gap: 4px;
+        gap: 0.38rem;
         font-size: 0.6rem;
     }
 
     footer span {
-        border-radius: 0px;
-        font-size: 0.53rem;
-        font-weight: 500;
-        padding: 0.15rem 0.3rem;
-        border-radius: 2.5px;
+        background: var(--bg-soft);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 0.64rem;
+        font-weight: 700;
+        padding: 0.18rem 0.45rem;
     }
 
     .github-code-link {
-        margin-left: 5px;
-    }
-
-    p {
-        max-width: 700px;
-        margin: 0 auto 18px;
+        align-items: center;
+        display: inline-flex;
+        margin-left: 0;
     }
 
     @keyframes flicker {
@@ -139,6 +182,12 @@ import { projects } from "@cv";
 
         article h3 span {
             animation-name: none;
+        }
+
+        article {
+            border: 1px solid #ddd;
+            box-shadow: none;
+            break-inside: avoid;
         }
     }
 </style>

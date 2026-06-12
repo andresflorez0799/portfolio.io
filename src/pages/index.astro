@@ -15,6 +15,17 @@ const { name, label } = basics;
 ---
 
 <Layout title={`Portafolio de ${name} - ${label}`}>
+    <nav class="site-nav no-print" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label={`Ir al inicio del portafolio de ${name}`}>
+            <span>MF</span>
+        </a>
+        <div class="nav-links">
+            <a href="#sobre-mi">Perfil</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#educacion">Formación</a>
+            <a href="#proyectos">Proyectos</a>
+        </div>
+    </nav>
     <main>
         <ThemeIcon />
         <ModalInformation />
@@ -30,23 +41,96 @@ const { name, label } = basics;
 
 <style>
     body {
-        overflow: scroll; /* o 'auto' */
-        scrollbar-width: none; /* Firefox */
+        overflow: scroll;
+        scrollbar-width: none;
     }
 
     body::-webkit-scrollbar {
-        display: none; /* Chrome, Safari */
+        display: none;
     }
 
     main {
-        padding: 4rem;
+        padding: 7rem 2rem 5rem;
         margin: auto;
         width: 100%;
     }
 
+    .site-nav {
+        align-items: center;
+        backdrop-filter: blur(18px);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        box-shadow: 0 16px 46px rgba(15, 23, 42, 0.08);
+        display: flex;
+        gap: 0.75rem;
+        justify-content: space-between;
+        left: 50%;
+        max-width: min(920px, calc(100% - 2rem));
+        padding: 0.45rem;
+        position: fixed;
+        top: 1rem;
+        transform: translateX(-50%);
+        width: max-content;
+        z-index: 20;
+    }
+
+    .brand {
+        align-items: center;
+        background: var(--text);
+        border-radius: 999px;
+        color: var(--bg-soft);
+        display: inline-flex;
+        font-family: var(--mono);
+        font-size: 0.78rem;
+        font-weight: 800;
+        height: 2.35rem;
+        justify-content: center;
+        letter-spacing: 0.08em;
+        width: 2.35rem;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 0.2rem;
+    }
+
+    .nav-links a {
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 700;
+        padding: 0.62rem 0.85rem;
+        transition:
+            background 180ms ease,
+            color 180ms ease,
+            transform 180ms ease;
+    }
+
+    .nav-links a:hover {
+        background: var(--accent-soft);
+        color: var(--text);
+        transform: translateY(-1px);
+    }
+
     @media (width <= 700px) {
         main {
-            padding: 2rem;
+            padding: 6.5rem 1rem 4.5rem;
+        }
+
+        .site-nav {
+            max-width: calc(100% - 1rem);
+            width: calc(100% - 1rem);
+        }
+
+        .nav-links {
+            flex: 1;
+            justify-content: space-between;
+        }
+
+        .nav-links a {
+            font-size: 0.72rem;
+            padding-inline: 0.48rem;
         }
     }
 </style>

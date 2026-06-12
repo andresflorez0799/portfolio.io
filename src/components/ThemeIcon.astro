@@ -1,7 +1,7 @@
 ---
 
 ---
-<button id="themeToggle">
+<button id="themeToggle" class="no-print" aria-label="Cambiar tema">
     <svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path
             class="sun"
@@ -18,11 +18,39 @@
 
 <style>
     #themeToggle {
-        border: 0;
-        background: none;
+        align-items: center;
+        backdrop-filter: blur(16px);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        box-shadow: 0 14px 36px rgba(15, 23, 42, 0.08);
+        color: var(--text);
+        cursor: pointer;
+        display: inline-flex;
+        height: 2.7rem;
+        justify-content: center;
+        padding: 0;
+        position: fixed;
+        right: 1rem;
+        top: 1rem;
+        transition:
+            transform 180ms ease,
+            background 180ms ease;
+        width: 2.7rem;
+        z-index: 21;
     }
+
+    #themeToggle:hover {
+        background: var(--accent-soft);
+        transform: translateY(-1px);
+    }
+
+    #themeToggle svg {
+        width: 1.2rem;
+    }
+
     .sun {
-        fill: black;
+        fill: currentColor;
     }
     .moon {
         fill: transparent;
@@ -32,7 +60,15 @@
         fill: transparent;
     }
     :global(.dark) .moon {
-        fill: white;
+        fill: currentColor;
+    }
+
+    @media (width <= 700px) {
+        #themeToggle {
+            bottom: 1rem;
+            right: 4.4rem;
+            top: auto;
+        }
     }
 </style>
 

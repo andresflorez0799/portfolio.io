@@ -3,7 +3,7 @@ import Section from "../Section.astro";
 import { work } from "@cv";
 ---
 
-<Section title="Experiencia laboral">
+<Section id="experiencia" title="Experiencia laboral">
     <ul>
         {
             work.map(({ name, startDate, endDate, position, summary, highlights, url }) => {
@@ -45,52 +45,159 @@ import { work } from "@cv";
     ul {
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 18px;
+        position: relative;
+    }
+
+    ul::before {
+        background: linear-gradient(to bottom, var(--accent), transparent);
+        content: "";
+        height: calc(100% - 1rem);
+        left: 0.95rem;
+        position: absolute;
+        top: 0.5rem;
+        width: 2px;
+    }
+
+    li {
+        padding-left: 2.45rem;
+        position: relative;
+    }
+
+    li::before {
+        background: var(--surface-strong);
+        border: 3px solid var(--accent);
+        border-radius: 999px;
+        content: "";
+        height: 0.9rem;
+        left: 0.54rem;
+        position: absolute;
+        top: 1.2rem;
+        width: 0.9rem;
+        z-index: 1;
+    }
+
+    article {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        box-shadow: 0 18px 52px rgba(15, 23, 42, 0.06);
+        padding: 1rem;
+        transition:
+            border-color 180ms ease,
+            transform 180ms ease,
+            box-shadow 180ms ease;
+    }
+
+    article:hover {
+        border-color: rgba(20, 184, 166, 0.32);
+        box-shadow: var(--shadow);
+        transform: translateY(-3px);
     }
 
     article h3 {
-        font-weight: 500;
-        text-decoration: underline;
+        font-size: 1.08rem;
+        font-weight: 800;
     }
 
     article a:hover {
-        text-decoration: underline;
+        color: var(--accent);
     }
 
     article h4 {
+        color: var(--muted);
         font-weight: 400;
+        margin-top: 0.25rem;
     }
 
     header {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        margin-bottom: 4px;
+        gap: 1rem;
+        margin-bottom: 0.75rem;
     }
 
     time {
+        background: var(--accent-soft);
+        border-radius: 999px;
+        color: var(--accent);
         font-size: 0.85rem;
+        font-weight: 800;
         min-width: 102px;
+        padding: 0.35rem 0.55rem;
+        text-align: center;
     }
 
     footer {
         display: flex;
         flex-wrap: wrap;
-        gap: 4px;
+        gap: 0.4rem;
         font-size: 0.6rem;
     }
 
     footer span {
-        border-radius: 0px;
-        font-size: 0.53rem;
-        font-weight: 500;
-        padding: 0.15rem 0.3rem;
-        border-radius: 2.5px;
+        background: var(--bg-soft);
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 0.64rem;
+        font-weight: 700;
+        padding: 0.18rem 0.45rem;
+    }
+
+    hr {
+        border: 0;
+        border-top: 1px solid var(--border);
+        margin: 0 0 0.8rem;
     }
 
     @media (width <= 700px) {
+        ul::before {
+            display: none;
+        }
+
+        li {
+            padding-left: 0;
+        }
+
+        li::before {
+            display: none;
+        }
+
+        header {
+            flex-direction: column;
+        }
+
         time {
-            text-align: right;
+            text-align: left;
+        }
+    }
+
+    @media print {
+        ul {
+            gap: 12px;
+        }
+
+        ul::before,
+        li::before {
+            display: none;
+        }
+
+        li {
+            padding-left: 0;
+        }
+
+        article {
+            border: 0;
+            box-shadow: none;
+            padding: 0;
+        }
+
+        time {
+            background: transparent;
+            color: #444;
+            padding: 0;
         }
     }
 </style>
