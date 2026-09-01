@@ -6,7 +6,7 @@
     "email": "andresflorez0799@gmail.com",
     "phone": "+57 3058128826",
     "url": "https://www.linkedin.com/in/mairon-andr%C3%A9s-florez-alvarez-340124137/",
-    "summary": "Desarrollador de software y apasionado por la tecnología. He participado en la planificación, desarrollo, creación e implementación de soluciones de tecnología para empresas y negocios del sector Retail, Banca, Comercial y de Servicios con implementaciones de servicios Web, sitios web personalizados, aplicaciones de on-premise, integraciones SAP, Google, Dynamics, entre otros. Como independiente he participado en la creación de sistemas y automatizaciones para empresas, consultorías en desarrollo de software, proveedor de servicios.",
+    "summary": "Desarrollador y Lider Técnico en arquitectura de soluciones de software. Apasionado por la tecnología, he participado en la planificación, desarrollo, creación e implementación de soluciones de tecnología para empresas y negocios del sector Retail, Bancario, Comercial y de Servicios con implementaciones personalizadas, aplicaciones y sistemas on-premise, integraciones con software de terceros como SAP, Google, Dynamics, entre otros. Como independiente he participado en la creación de sistemas y automatizaciones para empresas, consultorías en desarrollo y arquitectura de software, proveedor de servicios.",
     "location": {
       "address": "",
       "postalCode": "250001",
@@ -35,7 +35,7 @@
   "work": [
     {
       "name": "Belltech",
-      "position": "Lider Ténico",
+      "position": "",
       "url": "https://belltech.la/",
       "startDate": "2022-12-01",
       "endDate": null,
